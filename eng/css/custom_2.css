@@ -108,7 +108,7 @@ body {
 }
 
 .custom-header nav span:hover:before {
-	color: #7D0473;
+	color: #006;
 }
 
 .custom-content-reveal {
@@ -305,7 +305,7 @@ transition:	 all 0.2s ease-out;
 }
 
 .fc-calendar .fc-row > div.fc-content:hover:after{
-	color: #7D0473;
+	color: #00f;
 }
 
 .fc-calendar .fc-row > div.fc-today.fc-content:hover:after{
@@ -349,7 +349,7 @@ display: block;
 /*this hides **LITTLE BOX in the CELL** for mobile devices*/
 
 	.fc-calendar .fc-row > div.fc-content:after {
-	content: '\00B7';
+	/*content: '\00B7';*/
 	text-align: center;
 	width: 15px;
 	margin-left: -10px;
@@ -371,7 +371,7 @@ display: block;
 	width:100%;
 
     margin:0 7px 0 0;
-    background-color:#f5f5f5;
+    background-color:#00f;
     border:1px solid #dedede;
     border-top:1px solid #eee;
     border-left:1px solid #eee;    
@@ -379,7 +379,7 @@ display: block;
     line-height:130%;
     text-decoration:none;
     font-weight:bold;
-    color:#565656;
+    color:#fff;
     cursor:pointer;
     padding:5px 10px 6px 7px; 	
 
