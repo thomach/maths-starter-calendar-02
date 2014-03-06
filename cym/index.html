@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js"><!--<![endif]-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Maths Starter of the Day</title>
+		<meta name="description" content="Maths Starter of the Day" />
+		<meta name="keywords" content="responsive, maths, mathematics, GCSE, starter, wjec, arithmatic, numercy, algebra, geometry, trigonometry, multiplication, probability, exam, revision, questions, answers, money," />
+		<meta name="author" content="Codrops" />
+
+	
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/calendar.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom_2.css" />
+
+		<script src="js/modernizr.custom.63321.js"></script>
+
+
+
+
+	</head>
+	<body>
+
+
+
+
+					<div class="container">	
+
+			<header class="clearfix">
+
+
+
+
+				<h1>Problem Mathemateg y Dydd<span>yn jQuery and CSS3</span></h1>
+				<nav class="codrops-demos">
+					
+					<a class="current-demo" href="index.html">Cymraeg</a>
+					<a class="current-demo" href="../eng/index.html">English</a>
+				</nav>
+			</header>
+			<section class="main">
+				<div class="custom-calendar-wrap">
+					<div id="custom-inner" class="custom-inner">
+						<div class="custom-header clearfix">
+							<nav>
+								<span id="custom-prev" class="custom-prev"></span>
+								<span id="custom-next" class="custom-next"></span>
+							</nav>
+							<h2 id="custom-month" class="custom-month"></h2>
+							<h3 id="custom-year" class="custom-year"></h3>
+						</div>
+						<!-- For the calendar plugin to work, we simply need a container with the class “fc-calendar-container”-->
+						<div id="calendar" class="fc-calendar-container"></div>
+					</div>
+				</div>
+			</section>
+		</div><!-- /container -->
+
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.calendario.js"></script>
+		<script type="text/javascript" src="js/data.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+				
+
+
+				var ansVisible = false;
+
+				//I believe this is calling transition functions across browsers - Then you can just call this function whenever you need the transition end event:
+
+				var transEndEventNames = {
+						'WebkitTransition' : 'webkitTransitionEnd',
+						'MozTransition' : 'transitionend',
+						'OTransition' : 'oTransitionEnd',
+						'msTransition' : 'MSTransitionEnd',
+						'transition' : 'transitionend'
+					},
+
+
+					transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+				
+					$wrapper = $( '#custom-inner' ),
+					
+					//The plugin can be called like this ...$( '#calendar' ).calendario();...as below:
+					$calendar = $( '#calendar' ),
+					
+					
+				
+
+					cal = $calendar.calendario( {
+						
+						
+						//This activites the day event (maths question on the current day) slider on browser openining...referencing further functionality from calendeior.js file in particular look at the _initEvents and console.log
+
+						//Check if Element Exists and returns content for the Day automatic
+
+						onAuto : function ($el, $contentEl, dateProperties){
+						
+						console.log('go');
+						if( $contentEl.length > 0 ) {
+								showEvents( $contentEl, dateProperties );
+							}
+						
+						
+						
+						},
+						
+
+						//Check if Element Exists and returns content when clicked
+						//This activites the day event (maths question on the current day) on click...
+
+
+						onDayClick : function( $el, $contentEl, dateProperties ) {
+
+
+							if( $contentEl.length > 0 ) {
+								showEvents( $contentEl, dateProperties );
+								
+							}
+
+						},
+
+						
+
+						caldata : codropsEvents,
+						displayWeekAbbr : true
+						
+					
+					} ),
+					
+						
+					
+
+					$month = $( '#custom-month' ).html( cal.getMonthName() ),
+					$year = $( '#custom-year' ).html( cal.getYear() );
+
+					
+				// The following provides navigation between the Months/years etc
+
+				$( '#custom-next' ).on( 'click', function() {
+					cal.gotoNextMonth( updateMonthYear );
+				} );
+				$( '#custom-prev' ).on( 'click', function() {
+					cal.gotoPreviousMonth( updateMonthYear );
+				
+				} );
+					
+
+
+
+				function updateMonthYear() {				
+					$month.html( cal.getMonthName() );
+					$year.html( cal.getYear() );
+				}
+
+				// The following function provides the transition with the Day Event to open the maths starter slider..from click date
+				
+				function showEvents( $contentEl, dateProperties ) {
+					
+					
+						
+					hideEvents();
+					
+					// The following provides the content shell for the openining slider of the Maths question slider... 
+
+					var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>Problem mathemateg i ' + dateProperties.monthname + ' ' + dateProperties.day + ', ' + dateProperties.year + '</h4></div>' ),
+						$close = $( '<span class="custom-content-close"></span>' ).on( 'click', hideEvents );
+
+
+
+						$showAnswer= $( '<span class="custom-content-showanswer showAns"></span>' ).on( 'click', showAnswer );
+
+
+
+					
+
+
+
+
+					$events.append( $contentEl.html() , $close,$showAnswer ).insertAfter( $wrapper );
+					
+
+
+					
+					setTimeout( function() {
+						$events.css( 'top', '0%' );
+					}, 25 );
+
+					
+
+				};
+
+				//removal of sliding content
+			
+				function hideEvents() {
+
+					var $events = $( '#custom-content-reveal' );
+					if( $events.length > 0 ) {
+						
+						$events.css( 'top', '100%' );
+						Modernizr.csstransitions ? $events.on( transEndEventName, function() { $( this ).remove(); } ) : $events.remove();
+
+					}
+
+				}
+
+
+				// The following function provides the transition with the Day Event..question click for answer...it subtly uses a fade in and out transition of the content here and pulls in the styling from the CSS stylesheet...it refers to the class: custom-content-showanswer and pulls in the data (html content) via the  JS DATA sheet.  
+
+
+				function showAnswer() {
+					
+					if (ansVisible == false)
+						{
+							$('.custom-content-showanswer').addClass('hideAns').attr('data-content','');
+							$('.custom-content-showanswer').removeClass('showAns').attr('data-content','');
+							$('.question').fadeOut('slow',function(){$('.answer').fadeIn('slow',function(){});});
+							
+						ansVisible = true;
+					}
+					else if (ansVisible == true)
+					{
+						$('.custom-content-showanswer').addClass('showAns').attr('data-content','');
+						$('.custom-content-showanswer').removeClass('hideAns').attr('data-content','');
+						$('.answer').fadeOut('slow',function(){	$('.question').fadeIn('slow',function(){});});
+					
+						ansVisible = false;
+					}
+
+			//$('.answer').toggle();
+}
+					
+
+
+
+
+				
+
+				
+			
+				//function colorCalendar(){
+				//$("#calendrier").find(".category").parent().parent().css("background-color","#276983");
+				//}
+
+});
+
+
+
+		</script>
+	</body>
+</html>
