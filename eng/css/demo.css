@@ -1,5 +1,5 @@
 /* General Demo Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);*/
 
 html { height: 100%; }
 
@@ -51,6 +51,8 @@ a {
 
 }
 
+
+
 .container > header,
 .main {
 	padding: 0 30px 50px 30px;
@@ -61,16 +63,17 @@ a {
 }
 
 .container > header {
-	padding: 30px;
+	padding: 10px;
+	padding-bottom: 5px;
 }
 
 .container > header h1 {
-	font-size: 28px;
+	font-size: 18px;
 	line-height: 38px;
 	margin: 0;
 	font-weight: 700;
 	color: #006;
-	float: right;
+	float: left;
 }
 
 .container > header h1 span {
@@ -125,7 +128,7 @@ a {
 }
 
 .codrops-demos a:hover {
-	color: #00f;
-	border-color: #006;
+	color: #FA7F0C;
+	border-color: #FA7F0C;
 }
 
