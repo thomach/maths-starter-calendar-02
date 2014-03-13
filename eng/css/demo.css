@@ -1,5 +1,5 @@
 /* General Demo Style */
-/*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);*/
+
 
 html { height: 100%; }
 
@@ -31,7 +31,7 @@ html { height: 100%; }
 
 
 body {
-    font-family: 'Arial', Helvetica, sans-serif;
+    font-family: 'Helvetica', Arial, sans-serif;
     background-color: #fff;
     font-weight: 300;
     font-size: 14px;
@@ -43,6 +43,7 @@ a {
 	color: #006;
 	text-decoration: none;
 }
+h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight: normal;  color: #fff;}
 
 .container {
 	width: 100%;
@@ -53,59 +54,73 @@ a {
 
 
 
-.container > header,
+.header {width: 100%; background-color: #999; }
+
+.headercon {padding: 0 30px 50px 30px; width: 100%; max-width: 1100px;margin: 0 auto;}
+.footer {width: 100%; }
+.footercon {padding: 0 30px 50px 30px; width: 100%; max-width: 1100px;margin: 0 auto;}
+
+.container > 
 .main {
 	padding: 0 30px 50px 30px;
 	width: 100%;	
 	max-width: 1100px;
 	/*min-width: 30%;*/
 	margin: 0 auto;
+
+
+}
+.container > footer{
+
+	padding: 10px;
+	padding-bottom: 5px;
+	background: #999 100%;
 }
 
 .container > header {
+
 	padding: 10px;
 	padding-bottom: 5px;
+	background: #999 100%;
 }
 
 .container > header h1 {
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 38px;
 	margin: 0;
-	font-weight: 700;
-	color: #006;
-	float: left;
+	
+	color: #fff;
+	float: left;  
+	text-shadow: 1px 1px 0px #999;
+          font-weight: bold;
+
 }
 
-.container > header h1 span {
-	font-size: 18px;
-	font-weight: 300;
-	color: #006;
-	display: block;
-}
 
 
 /* Header Style */
-.codrops-top {
+/*.codrops-top {
 	line-height: 24px;
 	font-size: 11px;
 	background: #fff;
 	/*text-transform: uppercase;*/
-	z-index: 9999;
-	position: relative;
+	/*z-index: 9999;
+	position: relative;*/
 }
-
+/*.
 .codrops-top a {
 	padding: 0px 10px;
 	letter-spacing: 1px;
 	color: #006;
 	display: inline-block;
-}
+
+}*/
 
 /*.codrops-top a:hover {
 	color: #800;
 }*/
 
-.codrops-top span.right {
+/*.codrops-top span.right {
 	float: right;
 }
 
@@ -115,7 +130,7 @@ a {
 }*/
 
 /* Demo Buttons Style */
-.codrops-demos {
+/*.codrops-demos {
 	float: left;
 }
 
