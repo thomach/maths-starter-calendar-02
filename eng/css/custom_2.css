@@ -184,9 +184,15 @@ span.showAns:after{
 	content: attr(data-content) 'Show Answer';
 }
 
+span.showAns:hover{ background-color:#000;}
+
 span.hideAns:after{
 	content: attr(data-content) 'Hide Answer';
 }
+
+span.hideAns:hover{ background-color:#000;}
+
+
 .custom-content-reveal a,
 .custom-content-reveal span {
 	font-size: 22px;
@@ -368,14 +374,14 @@ display: block;
 
 
 /*show answer button for mobile devices*/
-.custom-content-reveal span.custom-content-showanswer{
+.custom-content-reveal span.custom-content-showanswer {
 	position: absolute;
 	top: 80px;
 	
 	width:100%;
 
     margin:0 7px 0 0;
-    background-color:#00f;
+    background-color:#34C1FD;
     border:1px solid #dedede;
     border-top:1px solid #eee;
     border-left:1px solid #eee;    
@@ -406,9 +412,13 @@ span.showAns:after{
 	content: attr(data-content) 'Show Answer';
 }
 
+span.showAns:hover{ background-color:#000;}
+
 span.hideAns:after{
 	content: attr(data-content) 'Hide Answer';
 }
+
+span.hideAns:hover{ background-color:#000;}
 
 .question{
     font-family: 'Arial', Helvetica, sans-serif;
