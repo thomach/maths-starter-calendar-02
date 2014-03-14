@@ -34,8 +34,8 @@ body {
     font-family: 'Helvetica', Arial, sans-serif;
     background-color: #fff;
     font-weight: 300;
-    font-size: 14px;
-    color: #006;
+    font-size:100%;
+    color: #000;
     height: 100%;
 }
 
