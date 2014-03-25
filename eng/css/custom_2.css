@@ -344,17 +344,24 @@ display: block;
 	display: none;
 }
 
-.maths{
-  
-    font-size: 54px;
 
+math, math[mode="inline"] {
+  display: inline;
+  font-family: CMSY10, CMEX10, Symbol, Times;
+  font-style: normal;
 }
 
-.maths a{
-  
-    font-size: 54px;
-
+math[mode="display"] {
+  display: block;
+  text-align: center;
+  font-family: CMSY10, CMEX10, Symbol, Times;
+  font-style: normal;
 }
+
+math *.[mathsize="big"] {
+  font-size:  125%
+}
+
 
 
 @media screen and (max-width: 400px) {
@@ -386,6 +393,8 @@ display: block;
 
 
 /*show answer button for mobile devices*/
+
+
 .custom-content-reveal span.custom-content-showanswer {
 	position: absolute;
 	top: 80px;
@@ -397,7 +406,7 @@ display: block;
     border:1px solid #dedede;
     border-top:1px solid #eee;
     border-left:1px solid #eee;    
-    font-size:100%;
+    font-size:55%;
     line-height:130%;
     text-decoration:none;
     font-weight:bold;

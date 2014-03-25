@@ -1,6 +1,6 @@
 var codropsEvents = {
 'MM-01-YYYY' : '<a href="#"><div class="question"><img src="images/money-notes-uk.jpg" width="350" height="231" style="max-width:100%;height:auto;"><br>Bronwen has £45 to spend on DVDs. Each DVD costs £8.49.<br><br>How many DVDs can she buy?</div><div class="answer">£45</div></a>',
-'MM-02-YYYY' : '<a href="#"><div class="question"><span style="font-size:54px; text-align:left;">(i)<math><semantics><mrow><msqrt><mrow><mn>11.56</mn></mrow></msqrt></mrow></semantics></math><br><br>(ii)<math style="font-size:54px;"><semantics><mrow><msup><mrow><mn>5.4</mn></mrow><mn>2</mn></msup></mrow></semantics></math></span></div><div class="answer">Answer will appear here!</div></a>',
+'MM-02-YYYY' : '<a href="#"><div class="question"><math display="block"><semantics><mrow><mo>&#x00A0;</mo><mtext>(i)&#x00A0;&#x00A0;&#x00A0;</mtext><msqrt><mrow><mn>11.56</mn></mrow></msqrt></mrow></semantics></math><math display="block"></semantics><mrow><mtext>(ii)&#x00A0;&#x00A0;&#x00A0;&#x00A0;5</mtext><msup><mrow><mtext>.4</mtext></mrow><mn>2</mn></msup></mrow></semantics></math></span></div><div class="answer">Answer will appear here!</div></a>',
 'MM-03-YYYY' : '<a href="#"><div class="question"> <math><semantics><mrow><mo stretchy="false">(</mo><mn>5.4</mn><mo>&#x00D7;</mo><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mo stretchy="false">)</mo><mo>&#x00D7;</mo><mo stretchy="false">(</mo><mn>3</mn><mo>&#x00D7;</mo><msup><mrow><mn>10</mn></mrow><mn>5</mn></msup><mo stretchy="false">)</mo></mrow></semantics></math></div><div class="answer">Answer will appear here!</div></a>',
 'MM-04-YYYY' : '<a href="#"><div class="question"><img src="images/money-notes-uk.jpg" width="350" height="231" style="max-width:100%;height:auto;"><br>Bronwen has £45 to spend on DVDs. Each DVD costs £8.49.<br><br>How many DVDs can she buy?</div><div class="answer">£45</div></a>',
 'MM-05-YYYY' : '<a href="#"><div class="question"><img src="images/money-notes-uk.jpg" width="350" height="231" style="max-width:100%;height:auto;"><br>Bronwen has £45 to spend on DVDs. Each DVD costs £8.49.<br><br>How many DVDs can she buy?</div><div class="answer">£45</div></a>',
@@ -41,4 +41,5 @@ var codropsEvents = {
 
 	'12-25-YYYY' : '<a href="#"><span>Christmas Day</span></a>',
 	'12-31-YYYY' : '<a href="#"><span>New Year\'s Eve</span></a>'
+
 };
