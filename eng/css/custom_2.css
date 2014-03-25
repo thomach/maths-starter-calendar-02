@@ -3,6 +3,17 @@ body {
 
 }
 
+img {width:250px ; height:231px;}
+
+math[mode="display"] {
+  display: block;
+}
+
+math *.[mathvariant="bold-sans-serif"] {
+  font-family: Arial, "Lucida Sans Unicode", Verdana, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
 
 
 .custom-calendar-wrap {
