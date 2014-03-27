@@ -3,17 +3,12 @@ body {
 
 }
 
-img {width:250px ; height:231px;}
+img {max-width:100%; height:auto;}
 
-math[mode="display"] {
-  display: block;
-}
 
-math *.[mathvariant="bold-sans-serif"] {
-  font-family: Arial, "Lucida Sans Unicode", Verdana, sans-serif;
-  font-weight: bold;
-  font-style: normal;
-}
+
+
+
 
 
 .custom-calendar-wrap {
@@ -355,23 +350,6 @@ display: block;
 	display: none;
 }
 
-
-math, math[mode="inline"] {
-  display: inline;
-  font-family: CMSY10, CMEX10, Symbol, Times;
-  font-style: normal;
-}
-
-math[mode="display"] {
-  display: block;
-  text-align: center;
-  font-family: CMSY10, CMEX10, Symbol, Times;
-  font-style: normal;
-}
-
-math *.[mathsize="big"] {
-  font-size:  125%
-}
 
 
 
