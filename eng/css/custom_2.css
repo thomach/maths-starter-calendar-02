@@ -6,9 +6,11 @@ body {
 img {max-width:100%; height:auto;}
 
 
+.math *.[mathsize="big"] {
+  font-size: 500%;
+}
 
-
-
+.fitscale {font-size:54px;}
 
 
 .custom-calendar-wrap {
