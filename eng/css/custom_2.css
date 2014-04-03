@@ -3,14 +3,12 @@ body {
 
 }
 
-img {max-width:100%; height:auto;}
+img {max-width:60%; height:auto;}
 
 
-.math *.[mathsize="big"] {
-  font-size: 500%;
 }
 
-.fitscale {font-size:54px;}
+.fitscale {font-size:54px;} /* comment this out for custom reveal to take over full screen */
 
 
 .custom-calendar-wrap {
@@ -168,7 +166,7 @@ img {max-width:100%; height:auto;}
     border:1px solid #34C1FD;
     border-top:1px solid #34C1FD;
     border-left:1px solid #34C1FD;    
-    font-size:100%;
+    /*font-size:100%;*/
     line-height:130%;
     text-decoration:none;
     font-weight:bold;
@@ -491,10 +489,7 @@ styling of the row and the div (or the “cell”):
 
 
 }
-@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
 
 	
 
