@@ -156,20 +156,21 @@ styling of the row and the div (or the “cell”):
 	/* 
 	Generic Styling, for Desktops/Laptops 
 	*/
-	table { 
+	.custom-content-reveal table { 
 		width: 100%; 
 		border-collapse: collapse; 
+
 	}
 	/* Zebra striping */
-	tr:nth-of-type(odd) { 
+	.custom-content-reveal tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
-	th { 
+	.custom-content-reveal th { 
 		background: #333; 
 		color: white; 
 		font-weight: bold; 
 	}
-	td, th { 
+	.custom-content-reveal td, th { 
 		padding: 6px; 
 		border: 1px solid #ccc; 
 		text-align: left; 

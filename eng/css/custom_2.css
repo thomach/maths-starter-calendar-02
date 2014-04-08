@@ -117,6 +117,8 @@ img {max-width:60%; height:auto;}
 	color: #006;
 }
 
+/*MATHS STARTERS - CONTENT within sliding window*/
+
 .custom-content-reveal {
 	background: #fff;
 	/*background: rgba(246, 246, 246, 0.9);*//*This was the light grey transparent background for content reveal*/
@@ -136,7 +138,7 @@ img {max-width:60%; height:auto;}
 
 .custom-content-reveal span.custom-content-close {
 	position: absolute;
-	top: 25px;
+	top: 30px;
 	right: 10px;
 	width: 20px;
 	height: 20px;
@@ -144,7 +146,7 @@ img {max-width:60%; height:auto;}
 	background: #34C1FD;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	cursor: pointer;
-	line-height: 13px;
+	line-height: 5px;
 	padding: 0;
 }
 
@@ -158,8 +160,8 @@ img {max-width:60%; height:auto;}
 .custom-content-reveal span.custom-content-showanswer{
 	position: absolute;
 	/*width: 100%;*/
-	top: 80px;
-	
+	top: 30px;
+	font-size: 18px;
 
     margin:0 7px 0 0;
     background-color:#34C1FD;
@@ -201,10 +203,18 @@ span.hideAns:hover{ background-color:#000;}
 
 .custom-content-reveal a,
 .custom-content-reveal span {
-	font-size: 22px;
+	font-size: 42px;
 	padding: 10px 30px;
+	text-align: center; /*content centre and postioning*/
 	display: block;
 }
+
+.custom-content-reveal {
+	font-size: 52px;
+	padding: 10px 30px;
+	text-align: center; /*content centre and postioning*/
+	display: block;
+	}
 
 .custom-content-reveal h4 {
 	text-transform: uppercase;
@@ -221,8 +231,17 @@ span.hideAns:hover{ background-color:#000;}
 }
 
 .custom-content-reveal span {
-	color: #888;
+	color: #000;
 }
+
+.custom-content-reveal p {
+	color: #000;
+	padding: 10px 30px;
+	font-size: 22px;
+
+}
+
+
 
 .custom-content-reveal a {
 	color: #000;
@@ -234,9 +253,58 @@ span.hideAns:hover{ background-color:#000;}
 
 
 
+		@media (min-width : 1824px) {
+		    .custom-content-reveal a,
+			.custom-content-reveal span {
+				font-size: 142px;
+				padding: 10px 30px;
+				text-align: center; /*content centre and postioning*/
+				display: block;
+			}
+		}
+
+		@media (min-width : 1224px) {
+			.custom-content-reveal a,
+			.custom-content-reveal span {
+				font-size: 82px;
+				padding: 10px 30px;
+				text-align: center; /*content centre and postioning*/
+				display: block;
+			}
+
+		}
+		@media (min-width: 481px) and (max-width: 768px) {
+		   .custom-content-reveal a,
+			.custom-content-reveal span {
+				font-size: 52px;
+				padding: 10px 30px;
+				text-align: center; /*content centre and postioning*/
+				display: block;
+			}
+		}
+		 
+		@media (min-width: 321px) and (max-width: 480px) {
+		    .custom-content-reveal a,
+			.custom-content-reveal span {
+				font-size: 22px;
+		
+				text-align: center; /*content centre and postioning*/
+				display: block;
+			}
+		}
+		 
+		@media (max-width: 320px) {
+		 .custom-content-reveal a,
+.custom-content-reveal span {
+	font-size: 16px;
+	padding: 10px 30px;
+	text-align: center; /*content centre and postioning*/
+	display: block;
+}
+}
 
 
-
+/*END OF MATHS STARTERS - CONTENT within sliding window*/
 
 
 /* Modifications */
