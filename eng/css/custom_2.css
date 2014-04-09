@@ -49,7 +49,7 @@ img {max-width:60%; height:auto;}
 	height: 70px;
 	position: relative;
 	border-top: 0px solid #fff;
-	border-bottom: 3px solid #34C1FD;
+	border-bottom: 3px solid #0a2356;
 }
 
 .custom-header h2,
@@ -59,16 +59,16 @@ img {max-width:60%; height:auto;}
 }
 
 .custom-header h2 {
-	color: #34C1FD;
-	font-weight: 300;
-	font-size: 18px;
+	color: #0a2356;
+	font-weight: 700;
+	font-size: 22px;
 	margin-top: 10px;
 }
 
 .custom-header h3 {
 	font-size: 10px;
 	font-weight: 700;
-	color: #34C1FD;
+	color: #0a2356;
 }
 
 .custom-header nav span {
@@ -99,7 +99,7 @@ img {max-width:60%; height:auto;}
 
 .custom-header nav span:before {
 	font-family: 'fontawesome-selected';
-	color: #34C1FD;
+	color: #0a2356;
 	position: absolute;
 	text-align: center;
 	width: 100%;
@@ -146,7 +146,7 @@ img {max-width:60%; height:auto;}
 	background: #34C1FD;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	cursor: pointer;
-	line-height: 13px;
+	line-height: 20px;
 	padding: 0;
 }
 
@@ -160,8 +160,8 @@ img {max-width:60%; height:auto;}
 .custom-content-reveal span.custom-content-showanswer{
 	position: absolute;
 	/*width: 100%;*/
-	top: 30px;
-	font-size: 16px;
+	top: 25px;
+	font-size: 18px;
 
     margin:0 7px 0 0;
     background-color:#34C1FD;
@@ -216,11 +216,11 @@ span.hideAns:hover{ background-color:#000;}
 	font-size: 13px;
 	font-weight: 300;
 	letter-spacing: 3px;
-	color: #777;
+	color: #0a2356;
 	padding: 20px;
 	background: #fff;
 	border-bottom: 1px solid #ddd;
-	border-top: 5px solid #34C1FD;
+	border-top: 0px solid #34C1FD; /*this is the top line of content*/
 	box-shadow: 0 1px rgba(255,255,255,0.9);
 	margin-bottom: 30px;
 }
@@ -291,13 +291,14 @@ span.hideAns:hover{ background-color:#000;}
 		 
 		@media (max-width: 320px) {
 		 .custom-content-reveal a,
-.custom-content-reveal span {
-	font-size: 16px;
-	padding: 10px 30px;
-	text-align: center; /*content centre and postioning*/
-	display: block;
+			.custom-content-reveal span {
+			font-size: 16px;
+			padding: 10px 30px;
+			text-align: center; /*content centre and postioning*/
+			display: block;
 }
 }
+
 
 
 /*END OF MATHS STARTERS - CONTENT within sliding window*/
