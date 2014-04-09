@@ -78,14 +78,14 @@ h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight
 
 	padding: 10px;
 	padding-bottom: 5px;
-	background: #999 100%;
+	background: #0a2356 100%;
 }
 
 .container > header {
 
 	padding: 10px;
 	padding-bottom: 5px;
-	background: #999 100%;
+	background: #0a2356 100%;
 }
 
 .container > header h1 {
@@ -95,8 +95,8 @@ h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight
 	
 	color: #fff;
 	float: left;  
-	text-shadow: 1px 1px 0px #999;
-          font-weight: bold;
+	text-shadow: 1px 1px 0px #0a2356;
+    font-weight: bold;
 
 }
 

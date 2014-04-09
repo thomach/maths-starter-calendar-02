@@ -153,27 +153,4 @@ styling of the row and the div (or the “cell”):
 	border-bottom: none;
 }
 
-	/* 
-	Generic Styling, for Desktops/Laptops 
-	*/
-	.custom-content-reveal table { 
-		width: 100%; 
-		border-collapse: collapse; 
 
-	}
-	/* Zebra striping */
-	.custom-content-reveal tr:nth-of-type(odd) { 
-		background: #eee; 
-	}
-	.custom-content-reveal th { 
-		background: #333; 
-		color: white; 
-		font-weight: bold; 
-	}
-	.custom-content-reveal td, th { 
-		padding: 6px; 
-		border: 1px solid #ccc; 
-		text-align: left; 
-	}
-
-	
