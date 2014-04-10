@@ -48,8 +48,8 @@ img {max-width:60%; height:auto;}
 	padding: 5px 10px 10px 20px;
 	height: 70px;
 	position: relative;
-	border-top: 0px solid #fff;
-	border-bottom: 3px solid #0a2356;
+	border-top: 0px solid #fff; /*line border above title month an year with arrows either dise*/
+	border-bottom: 0px solid #0a2356;  /*line border below  title month an year with arrows either dise*/
 }
 
 .custom-header h2,
@@ -61,14 +61,14 @@ img {max-width:60%; height:auto;}
 .custom-header h2 {
 	color: #0a2356;
 	font-weight: 700;
-	font-size: 22px;
+	font-size: 28px;
 	margin-top: 10px;
 }
 
 .custom-header h3 {
-	font-size: 10px;
+	font-size: 0px;
 	font-weight: 700;
-	color: #0a2356;
+	color: #fff;
 }
 
 .custom-header nav span {
@@ -90,11 +90,13 @@ img {max-width:60%; height:auto;}
 }
 
 .custom-header nav span:first-child {
-	left: 5px;
+	left: 5px; 
+
 }
 
 .custom-header nav span:last-child {
-	right: 5px;
+	right: 155px;
+
 }
 
 .custom-header nav span:before {
@@ -316,7 +318,7 @@ span.hideAns:hover{ background-color:#000;}
 
 .fc-calendar .fc-head {
 	background: transparent;
-	color: #34C1FD;
+	color: #fff; /* DAYS COLOUR*/
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 12px;

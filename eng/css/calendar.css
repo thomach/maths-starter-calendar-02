@@ -50,7 +50,7 @@ width: 120%;
 problem in cross browser testing suggest change back to 100%*/
 
 .fc-calendar .fc-row {
-	width: 120%;
+	width: 105%;
 	border-bottom: 1px solid #fff; /* grey border around calendar numbers - lines */
 }
 
@@ -80,7 +80,7 @@ of the row and the div (or the “cell”):*/
 .fc-calendar .fc-head > div {
 	float: left;
 	height: 80%;
-	width:  16.28%; /* 100% / 7 */
+	width:  12.28%; /* 100% / 7 ...tinkered this to fit in safari last from 16.28% */ 
 	width: -moz-calc(98%/7);
 	width: -webkit-calc(98%/7);
 	width: -ms-calc(82%/7);
@@ -153,4 +153,27 @@ styling of the row and the div (or the “cell”):
 	border-bottom: none;
 }
 
+	/* 
+	Generic Styling, for Desktops/Laptops 
+	*/
+	.custom-content-reveal table { 
+		width: 100%; 
+		border-collapse: collapse; 
 
+	}
+	/* Zebra striping */
+	.custom-content-reveal tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+	.custom-content-reveal th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+	.custom-content-reveal td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: left; 
+	}
+
+	
