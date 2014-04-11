@@ -44,12 +44,16 @@ img {max-width:60%; height:auto;}
 }
 
 .custom-header {
+
+	width: 220px;
+	margin-left: 35%;
+	margin-right: 35%;
 	background: #fff;
-	padding: 5px 10px 10px 20px;
-	height: 70px;
+	padding: 6px 0px 0px 0px;
+	height: 60px;
 	position: relative;
 	border-top: 0px solid #fff; /*line border above title month an year with arrows either dise*/
-	border-bottom: 0px solid #0a2356;  /*line border below  title month an year with arrows either dise*/
+	border-bottom: 1px solid #0a2356;  /*line border below  title month an year with arrows either dise*/
 }
 
 .custom-header h2,
@@ -61,17 +65,18 @@ img {max-width:60%; height:auto;}
 .custom-header h2 {
 	color: #0a2356;
 	font-weight: 700;
-	font-size: 28px;
+	font-size: 22px;
 	margin-top: 10px;
 }
 
 .custom-header h3 {
-	font-size: 0px;
+	font-size: 10px;
 	font-weight: 700;
-	color: #fff;
+	color: #34C1FD;
 }
 
 .custom-header nav span {
+
 	position: absolute;
 	top: 17px;
 	width: 30px;
@@ -90,13 +95,16 @@ img {max-width:60%; height:auto;}
 }
 
 .custom-header nav span:first-child {
-	left: 5px; 
+	left: 0px;
+	font-size: 1.5em;
+	font-weight: bold;
 
 }
 
 .custom-header nav span:last-child {
-	right: 155px;
-
+	right: 0px;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 .custom-header nav span:before {
@@ -104,11 +112,12 @@ img {max-width:60%; height:auto;}
 	color: #0a2356;
 	position: absolute;
 	text-align: center;
-	width: 100%;
+	width: 80%;
 }
 
 .custom-header nav span.custom-prev:before {
 	content: '\25c2';
+
 }
 
 .custom-header nav span.custom-next:before {
@@ -289,9 +298,25 @@ span.hideAns:hover{ background-color:#000;}
 				text-align: center; /*content centre and postioning*/
 				display: block;
 			}
+
+				.custom-header {
+
+				width: 220px;
+				margin-left: 15%;
+				margin-right: 15%;
+
+			}
 		}
 		 
 		@media (max-width: 320px) {
+
+			.custom-header {
+
+				width: 220px;
+				margin-left: 10%;
+				margin-right: 10%;
+
+			}
 		 .custom-content-reveal a,
 			.custom-content-reveal span {
 			font-size: 16px;
