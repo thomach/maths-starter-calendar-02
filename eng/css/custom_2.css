@@ -280,7 +280,7 @@ background-color:#0a2356;
 		@media (min-width : 1224px) {
 			.custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 22px;
+				font-size: 42px;
 				padding: 10px 30px;
 				text-align: center; /*content centre and postioning*/
 				display: block;
@@ -338,7 +338,10 @@ background-color:#0a2356;
 
 .questioncontainer {
 	background-color: #fff;
+
+
 }
+
 .questiontext p {
 	padding-left: 20px;
 	text-align: left;
