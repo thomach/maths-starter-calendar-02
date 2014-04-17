@@ -53,7 +53,7 @@ img {max-width:60%; height:auto;}
 	height: 60px;
 	position: relative;
 	border-top: 0px solid #fff; /*line border above title month an year with arrows either dise*/
-	border-bottom: 1px solid #0a2356;  /*line border below  title month an year with arrows either dise*/
+	border-bottom: 1px dotted #0a2356;  /*line border below  title month an year with arrows either dise*/
 }
 
 .custom-header h2,
@@ -131,7 +131,7 @@ img {max-width:60%; height:auto;}
 /*MATHS STARTERS - CONTENT within sliding window*/
 
 .custom-content-reveal {
-	background: #0a2356; /*colour change for background will be in white*/
+	background: #0a2356 ;  /*#0a2356 colour change for background will be in white*/
 	/*background: rgba(246, 246, 246, 0.9);*//*This was the light grey transparent background for content reveal*/
 	width: 100%;
 	height: 100%;
@@ -147,12 +147,15 @@ img {max-width:60%; height:auto;}
 	transition: all 0.6s ease-in-out;
 }
 
+
+
 .custom-content-reveal span.custom-content-close {
 	position: absolute;
 	top: 25px;
-	right: 10px;
+	right: 25px;
 	width: 20px;
 	height: 20px;
+	
 	text-align: center;
 	background: #34C1FD;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -172,6 +175,7 @@ img {max-width:60%; height:auto;}
 	position: absolute;
 	/*width: 100%;*/
 	top: 25px;
+	left:25px;
 	font-size: 18px;
 
     margin:0 7px 0 0;
@@ -183,7 +187,7 @@ img {max-width:60%; height:auto;}
     line-height:20px;
     text-decoration:none;
     font-weight:bold;
-    color:#565656;
+    color:#0a2356;
     cursor:pointer;
     padding:5px 10px 6px 7px; 	
 
@@ -193,7 +197,7 @@ img {max-width:60%; height:auto;}
 
 .custom-content-reveal span.custom-content-showanswer:after {
 	/*content: 'Show Answer';*/
-	
+
 	font-size: 18px;
 	color: #fff;
 }
@@ -215,6 +219,7 @@ span.hideAns:hover{ background-color:#000;}
 .custom-content-reveal a,
 .custom-content-reveal span {
 	font-size: 42px;
+
 	padding: 10px 30px;
 	text-align: center; /*content centre and postioning*/
 	display: block;
@@ -223,13 +228,15 @@ span.hideAns:hover{ background-color:#000;}
 
 
 .custom-content-reveal h4 {
+
+
 	text-transform: uppercase;
 	font-size: 13px;
 	font-weight: 300;
 	letter-spacing: 3px;
-	color: #0a2356;
+	color: #fff;
 	padding: 20px;
-	background: #fff;
+background-color:#0a2356;
 	border-bottom: 1px solid #ddd;
 	border-top: 0px solid #34C1FD; /*this is the top line of content*/
 	box-shadow: 0 1px rgba(255,255,255,0.9);
@@ -250,6 +257,7 @@ span.hideAns:hover{ background-color:#000;}
 
 
 .custom-content-reveal a {
+	background-color: #0a2356;
 	color: #000;
 }
 
@@ -328,6 +336,25 @@ span.hideAns:hover{ background-color:#000;}
 
 
 
+.questioncontainer {
+
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*END OF MATHS STARTERS - CONTENT within sliding window*/
 
 
@@ -351,11 +378,14 @@ span.hideAns:hover{ background-color:#000;}
 
 .fc-calendar .fc-row > div {
 	background: #34C1FD; /*this too colour blank numbered cells*/
+		/*border:  0.08em #0a2356 solid;
+		margin: 0.05em;*/
 	cursor: pointer;
 }
 
 .fc-calendar .fc-row > div:empty {
 	background: #fff; /* this too colour blank empty cells*/
+
 }
 
 

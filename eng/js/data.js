@@ -1,8 +1,12 @@
 var codropsEvents = {
-'MM-01-YYYY' : '<a href="#"><div class="question"><div id="problem"><p style="text-align: left;">(i)</p><math><semantics><mrow><msqrt><mrow><mn>11.56</mn></mrow></msqrt></mrow></semantics></math><p style="text-align: left;">(ii)</p><math><semantics><mrow><msup><mrow><mn>5.4</mn></mrow><mn>2</mn></msup></mrow></semantics></math></div></div><div class="answer"><img src="images/maths-test-01.png"><br<p>Answer will appear here!</p></div></a>',
-'MM-02-YYYY' : '<a href="#"><div class="question"><math><semantics><mrow><mo stretchy="false">(</mo><mn>5.4</mn><mo>&#x00D7;</mo><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mo stretchy="false">)</mo><mo>&#x00D7;</mo><mo stretchy="false">(</mo><mn>3</mn><mo>&#x00D7;</mo><msup><mrow><mn>10</mn></mrow><mn>5</mn></msup><mo stretchy="false">)</mo></mrow></semantics></math></div><div class="answer">Answer will appear here!</div></a>',
-'MM-03-YYYY' : '<a href="#"><div class="question"><img src="images/Aut07_181_01_1a.png"><br><p>Geraint buys a pair of jeans for £22.49 and a polo shirt for £13.87.<br> Find the total cost of these two items.</p></div><div class="answer"><img src="images/Aut07_181_01_1a.png"  ><br>£22.49 + £13.87 = £36.36</div></a>',
-'MM-04-YYYY' : '<a href="#"><div class="question"><img src="images/Aut07_181_01_10.png"><br><p>The diagram above shows a right-angled triangle with one angle of 67°.</p></div><div class="answer"><img src="images/Aut07_181_01_10.png"  ><br>180° - 90° - 67° = 23°</div></a>',
+
+/*April */	
+
+
+'04-01-YYYY' : '<a href="#"><div class="question"><div class="problem"><p style="text-align: left;">(i)</p><math><semantics><mrow><msqrt><mrow><mn>11.56</mn></mrow></msqrt></mrow></semantics></math><p style="text-align: left;">(ii)</p><math><semantics><mrow><msup><mrow><mn>5.4</mn></mrow><mn>2</mn></msup></mrow></semantics></math></div></div><div class="answer"><img src="images/maths-test-01.png"><br<p>Answer will appear here!</p></div></a>',
+'04-02-YYYY' : '<a href="#"><div class="question"><math><semantics><mrow><mo stretchy="false">(</mo><mn>5.4</mn><mo>&#x00D7;</mo><msup><mrow><mn>10</mn></mrow><mn>3</mn></msup><mo stretchy="false">)</mo><mo>&#x00D7;</mo><mo stretchy="false">(</mo><mn>3</mn><mo>&#x00D7;</mo><msup><mrow><mn>10</mn></mrow><mn>5</mn></msup><mo stretchy="false">)</mo></mrow></semantics></math></div><div class="answer">Answer will appear here!</div></a>',
+'04-03-YYYY' : '<a href="#"><div class="question"><img src="images/Aut07_181_01_1a.png"><br><p>Geraint buys a pair of jeans for £22.49 and a polo shirt for £13.87.<br> Find the total cost of these two items.</p></div><div class="answer"><img src="images/Aut07_181_01_1a.png"  ><br>£22.49 + £13.87 = £36.36</div></a>',
+'04-04-YYYY' : '<a href="#"><div class="question"><img src="images/Aut07_181_01_10.png"><br><p>The diagram above shows a right-angled triangle with one angle of 67°.</p></div><div class="answer"><img src="images/Aut07_181_01_10.png"  ><br>180° - 90° - 67° = 23°</div></a>',
 'MM-05-YYYY' : '<a href="#"><div class="question"><img src="images/Aut07_181_01_4b.png"><br><p>The bar chart shows the number of pupils absent each day in a particular week.<br> How many absences, in total, were recorded for that week?</p></div><div class="answer"><img src="images/Aut07_181_01_4b.png"  ><br>4+5+2+3+4 = 18</div></a>',
 'MM-06-YYYY' : '<a href="#"><div class="question"><img src="images/Aut07_181_01_5a.png"><br><p>Write down the two lines in the above diagram,<br> which are perpendicular to each other.</p></div><div class="answer"><img src="images/Aut07_181_01_5a.png"><br>AB, BC <br>(Two lines are perpendicular if they meet at a right angle, or at 90°)</div></a>',
 'MM-07-YYYY' : '<a href="#"><div class="question"><img src="images/Aut07_181_01_7b.png"><br><p>Write down the area of the rectangle shown above.</p></div><div class="answer"><img src="images/Aut07_181_01_7b.png"><br>5cm × 7cm = 35cm²</div></a>',
@@ -25,7 +29,7 @@ var codropsEvents = {
 'MM-16-YYYY' : '<a href="#"><div class="question">Find the Value of <br><math display="block"><mrow><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>&#x2212;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math></div><div class="answer"><math display="block"><mrow><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>&#x2212;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>10</mn></mrow><mrow><mn>12</mn></mrow></mfrac><mo>&#x2212;</mo><mfrac><mn>3</mn><mrow><mn>12</mn></mrow></mfrac><mo>=</mo><mfrac><mn>7</mn><mrow><mn>12</mn></mrow></mfrac></mrow></math></div></a>',
 
 
-'MM-17-YYYY' : '<a href="#"><div class="question"><img src="images/Aut07_184_05_3c.png"><br><p>Calculate, in mph, the speed of a motorcyclist who travels 154 miles in 3 hours, 30 minutes.</p></div><div class="answer"><img src="images/Aut07_184_05_3c.png"><br><p>154 ÷ 3.5 = 44 m.p.h.</p></div></a>',
+'MM-17-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut07_184_05_3c.png"><br><p>Calculate, in mph, the speed of a motorcyclist who travels 154 miles in 3 hours, 30 minutes.</p></div></div><div class="answer"><img src="images/Aut07_184_05_3c.png"><br><p>154 ÷ 3.5 = 44 m.p.h.</p></div></a>',
 
 
 'MM-18-YYYY' : '<a href="#"><div class="question"><img src="images/Aut07_184_05_5b.png"><br><p>Find the size of the angle marked y.</p></div><div class="answer"><img src="images/Aut07_184_05_5b.png"><br><p>115° + 88° + 82° = 285°. 360° - 285° = 75°. 180° - 75° = 105°</p></div></a>',
@@ -68,8 +72,20 @@ var codropsEvents = {
 'MM-31-YYYY' : '<a href="#"><div class="question"><img src="images/money-notes-uk.jpg"  ><br><p>3 8 11 16 19 24 27<br>From the list of numbers given above: <br>write down a square number <br> write down a multiple of 6 <br>write down a factor of 40 </p></div><div class="answer"><p>from top: 16, 24, 8</p></div></a>',
 
 
-	
+/*MAY */	
 
+'05-01-YYYY' : '<a href="#"><div class="question"><p style="text-align: left;">(i)</p><math><semantics><mrow><msqrt><mrow><mn>11.56</mn></mrow></msqrt></mrow></semantics></math><p style="text-align: left;">(ii)</p><math><semantics><mrow><msup><mrow><mn>5.4</mn></mrow><mn>2</mn></msup></mrow></semantics></math></div><div class="answer"><img src="images/maths-test-01.png"><p>Answer will appear here!</p></div></a>',
+
+
+'05-01-YYYY' : '<a href="#"><div class="question"><img src="images/cool-boots.png"><br>Write 2472<br>(i) correct to the nearest 10 <br>(ii) correct to the nearest 100</div><div class="answer"><img src="images/cool-boots.png"><br><p>Answer will appear here!</p></div></a>',
+
+'05-02-YYYY' : '<a href="#"><div class="question"><br>Write down two pairs of congruent shapes from the diagrams above.</div><div class="answer"><img src="images/Aut07_181_02_5.png"><br><p>B and I, E and J</p></div></a>',
+
+'05-03-YYYY' : '<a href="#"><div class="question"><p>(i) 3, 9, 15, 21, ????<br> (ii) 20, 17, 14, 11, ???? <br> Write down the next number in the sequences above. </p></div><div class="answer"><p>(i) rule is  + 6   = 27 <br>(ii) rule is -3 = 8</p></div></a>',
+
+'05-04-YYYY' : '<a href="#"><div class="question"><img src="images/cool-boots.png"><br>Question will appear here!</div><div class="answer"><img src="images/cool-boots.png"><br><p>Answer will appear here!</p></div></a>',
+
+'05-05-YYYY' : '<a href="#"><div class="question"><img src="images/cool-boots.png"><br>Question will appear here!</div><div class="answer"><img src="images/cool-boots.png"><br><p>Answer will appear here!</p></div></a>',
 
 
 
