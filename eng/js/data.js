@@ -29,7 +29,7 @@ var codropsEvents = {
 'MM-16-YYYY' : '<a href="#"><div class="question">Find the Value of <br><math display="block"><mrow><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>&#x2212;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math></div><div class="answer"><math display="block"><mrow><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>&#x2212;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>10</mn></mrow><mrow><mn>12</mn></mrow></mfrac><mo>&#x2212;</mo><mfrac><mn>3</mn><mrow><mn>12</mn></mrow></mfrac><mo>=</mo><mfrac><mn>7</mn><mrow><mn>12</mn></mrow></mfrac></mrow></math></div></a>',
 
 
-'MM-17-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut07_184_05_3c.png"><br><p>Calculate, in mph, the speed of a motorcyclist who travels 154 miles in 3 hours, 30 minutes.</p></div></div><div class="answer"><img src="images/Aut07_184_05_3c.png"><br><p>154 ÷ 3.5 = 44 m.p.h.</p></div></a>',
+'MM-17-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut07_184_05_3c.png"></div><div class="questiontext"><p>Calculate, in mph, the speed of a motorcyclist who travels 154 miles in 3 hours, 30 minutes.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Aut07_184_05_3c.png"></div><div class="answertext"><p>154 ÷ 3.5 = 44 m.p.h.</p></div></div></a>',
 
 
 'MM-18-YYYY' : '<a href="#"><div class="question"><img src="images/Aut07_184_05_5b.png"><br><p>Find the size of the angle marked y.</p></div><div class="answer"><img src="images/Aut07_184_05_5b.png"><br><p>115° + 88° + 82° = 285°. 360° - 285° = 75°. 180° - 75° = 105°</p></div></a>',

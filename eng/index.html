@@ -87,7 +87,7 @@
 							</nav>
 
 							<h2 id="custom-month" class="custom-month"></h2>
-							<h3 id="custom-year" class="custom-year"></h3>
+							<!--<h3 id="custom-year" class="custom-year"></h3>-->
 						</div>
 						<!-- For the calendar plugin to work, we simply need a container with the class “fc-calendar-container”-->
 						<div id="calendar" class="fc-calendar-container"></div>
@@ -227,7 +227,7 @@
 					
 					// The following provides the content shell for the openining slider of the Maths question slider... 
 
-					var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>Maths Starter<br>' + dateProperties.monthname + ' ' + dateProperties.day + ', ' + dateProperties.year + '</h4></div>' ),
+					var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>' + dateProperties.monthname + ' ' + dateProperties.day + ', ' + dateProperties.year + '</h4></div>' ),
 						$close = $( '<span class="custom-content-close"></span>' ).on( 'click', hideEvents );
 
 

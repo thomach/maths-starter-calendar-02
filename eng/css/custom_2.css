@@ -53,7 +53,7 @@ img {max-width:60%; height:auto;}
 	height: 60px;
 	position: relative;
 	border-top: 0px solid #fff; /*line border above title month an year with arrows either dise*/
-	border-bottom: 1px dotted #0a2356;  /*line border below  title month an year with arrows either dise*/
+	border-bottom: 0px dotted #0a2356;  /*line border below  title month an year with arrows either dise*/
 }
 
 .custom-header h2,
@@ -65,7 +65,7 @@ img {max-width:60%; height:auto;}
 .custom-header h2 {
 	color: #0a2356;
 	font-weight: 700;
-	font-size: 22px;
+	font-size: 24px;
 	margin-top: 10px;
 }
 
@@ -155,7 +155,7 @@ img {max-width:60%; height:auto;}
 	right: 25px;
 	width: 20px;
 	height: 20px;
-	
+
 	text-align: center;
 	background: #34C1FD;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -237,10 +237,10 @@ span.hideAns:hover{ background-color:#000;}
 	color: #fff;
 	padding: 20px;
 background-color:#0a2356;
-	border-bottom: 1px solid #ddd;
-	border-top: 0px solid #34C1FD; /*this is the top line of content*/
+	/*border-bottom: 0px solid #ddd;
+	border-top: 0px solid #34C1FD; this is the top line of content
 	box-shadow: 0 1px rgba(255,255,255,0.9);
-	margin-bottom: 30px;
+	margin-bottom: 30px;*/
 }
 
 .custom-content-reveal span {
@@ -337,12 +337,22 @@ background-color:#0a2356;
 
 
 .questioncontainer {
-
 	background-color: #fff;
 }
+.questiontext p {
+	padding-left: 20px;
+	text-align: left;
+	background-color: #34C1FD;
+}
 
-
-
+.answercontainer {
+	background-color: #fff;
+}
+.answertext p {
+	padding-left: 20px;
+	text-align: left;
+	background-color: #34C1FD;
+}
 
 
 
