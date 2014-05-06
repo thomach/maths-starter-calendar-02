@@ -134,7 +134,7 @@ img {max-width:60%; height:auto;}
 	background: #0a2356 ;  /*#0a2356 colour change for background will be in white*/
 	/*background: rgba(246, 246, 246, 0.9);*//*This was the light grey transparent background for content reveal*/
 	width: 100%;
-	height: 100%;
+	height: 95%;
 	position: absolute;
 	z-index: 100;
 	top: 100%;
@@ -229,7 +229,6 @@ span.hideAns:hover{ background-color:#000;}
 
 .custom-content-reveal h4 {
 
-
 	text-transform: uppercase;
 	font-size: 22px;
 	font-weight: 300;
@@ -243,9 +242,6 @@ span.hideAns:hover{ background-color:#000;}
 	margin-bottom: 30px;*/
 }
 
-.custom-content-reveal span {
-	color: #000;
-}
 
 .custom-content-reveal p {
 	color: #000;
@@ -255,14 +251,8 @@ span.hideAns:hover{ background-color:#000;}
 }
 
 
-
-.custom-content-reveal a {
-	background-color: #0a2356;
-	color: #000;
-}
-
 .custom-content-reveal a:hover {
-	color: #000;
+
 }
 
 
@@ -331,10 +321,8 @@ span.hideAns:hover{ background-color:#000;}
 			padding: 10px 30px;
 			text-align: center; /*content centre and postioning*/
 			display: block;
-
-
-}
-}
+			}
+		}
 
 
 
@@ -484,7 +472,6 @@ display: block;
 /*end - this provide visibility to only clickable events - not but not in right order*/
 
 .answer{
-
 	display: none;
 }
 
@@ -566,7 +553,7 @@ span.hideAns:after{
 	content: attr(data-content) 'Hide Answer';
 }
 
-span.hideAns:hover{ background-color:#000;}
+span.hideAns:hover{ background-color:#000; }
 
 .question{
 
@@ -575,7 +562,6 @@ span.hideAns:hover{ background-color:#000;}
     font-size: 12px;
     color: #333;
     height: 700px;
-
 }
 
 
