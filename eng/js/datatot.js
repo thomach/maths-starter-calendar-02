@@ -173,12 +173,9 @@ var codropsEvents = {
 
 
 
-'08-20-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer">n squared, + 7</div><div class="questiontext"><p>Write down the first three terms of the sequence whose nth term is</p></div></div><div class="answer"><div class="answercontainer"><img src="images/cool-boots.png"></div><div class="answertext"><p><m:math display="block"><m:mrow><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup><m:mtext>&#x00A0;</m:mtext><m:mo>+</m:mo><m:mtext>&#x00A0;</m:mtext><m:mn>7</m:mn><m:mo>,</m:mo><m:mtext>&#x00A0;</m:mtext><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup><m:mtext>&#x00A0;</m:mtext><m:mo>+</m:mo><m:mtext>&#x00A0;</m:mtext><m:mn>7</m:mn><m:mo>,</m:mo><m:mtext>&#x00A0;</m:mtext><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mtext>&#x00A0;</m:mtext><m:mo>+</m:mo><m:mtext>&#x00A0;</m:mtext><m:mn>7</m:mn><m:mtext>&#x00A0;&#x00A0;&#x00A0;</m:mtext><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>11</m:mn><m:mo>,</m:mo><m:mn>16</m:mn></m:mrow></m:math></p></div></div></a>',
 
 
-
-
-
+'08-20-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer">n squared, + 7</div><div class="questiontext"><p>Write down the first three terms of the sequence whose nth term is</p></div></div><div class="answer"><div class="answercontainer">n squared, + 7<br><math><mrow><msup><mtext>1</mtext><mtext>2</mtext></msup><msup><mrow><mtext>&#x00A0;+&#x00A0;7,&#x00A0;2</mtext></mrow><mtext>2</mtext></msup><msup><mrow><mtext>&#x00A0;+&#x00A0;7,&#x00A0;3</mtext></mrow><mtext>2</mtext></msup><mtext>&#x00A0;+&#x00A0;7&#x00A0;&#x00A0;&#x00A0;8,11,16</mtext></mrow></math></div><div class="answertext"><p></p></div></div></a>',
 
 
 
