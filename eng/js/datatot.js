@@ -170,11 +170,6 @@ var codropsEvents = {
 '08-19-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer">22, 21, 18, 13, ?, ?</div><div class="questiontext"><p>Write down the next two numbers in the following sequence.</p></div></div><div class="answer"><div class="answercontainer">22, 21, 18, 13, ?, ?</div><div class="answertext"><p>6, -3 look at the difference between each term, -1, -3, -5, therefore -7 for the next term and -9 for the one after</p></div></div></a>',
 
 
-
-
-
-
-
 '08-20-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer">n squared, + 7</div><div class="questiontext"><p>Write down the first three terms of the sequence whose nth term is</p></div></div><div class="answer"><div class="answercontainer">n squared, + 7<br><math><mrow><msup><mtext>1</mtext><mtext>2</mtext></msup><msup><mrow><mtext>&#x00A0;+&#x00A0;7,&#x00A0;2</mtext></mrow><mtext>2</mtext></msup><msup><mrow><mtext>&#x00A0;+&#x00A0;7,&#x00A0;3</mtext></mrow><mtext>2</mtext></msup><mtext>&#x00A0;+&#x00A0;7&#x00A0;&#x00A0;&#x00A0;8,11,16</mtext></mrow></math></div><div class="answertext"><p></p></div></div></a>',
 
 
