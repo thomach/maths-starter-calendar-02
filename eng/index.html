@@ -209,9 +209,11 @@
 
 				$( '#custom-next' ).on( 'click', function() {
 					cal.gotoNextMonth( updateMonthYear );
+					MathJax.Hub.Typeset();
 				} );
 				$( '#custom-prev' ).on( 'click', function() {
 					cal.gotoPreviousMonth( updateMonthYear );
+					MathJax.Hub.Typeset();
 				
 				} );
 					
@@ -234,7 +236,11 @@
 					// The following provides the content shell for the openining slider of the Maths question slider... 
 
 					var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>' + dateProperties.monthname + ' ' + dateProperties.day + ', ' + dateProperties.year + '</h4></div>' ),
-						$close = $( '<span class="custom-content-close"></span>' ).on( 'click', hideEvents );
+						$close = $( '<span class="custom-content-close"></span>' ).on( 'click', function(){
+							hideEvents();
+														
+							
+							}) 
 
 
 
@@ -264,13 +270,25 @@
 			
 				function hideEvents() {
 
+					
 					var $events = $( '#custom-content-reveal' );
 					if( $events.length > 0 ) {
 						
 						$events.css( 'top', '100%' );
-						Modernizr.csstransitions ? $events.on( transEndEventName, function() { $( this ).remove(); } ) : $events.remove();
+						Modernizr.csstransitions ? $events.on( transEndEventName, function() { 
+						
+						$( this ).remove(); } ) : $events.remove();
+	}
 
-					}
+			//// HIDE ANSWER SHOW QUESTION ON CLOSE
+			$('.custom-content-showanswer').addClass('showAns').attr('data-content','');
+			$('.custom-content-showanswer').removeClass('hideAns').attr('data-content','');
+			$('.answer').hide();
+			$('.question').show();
+					
+			ansVisible = false;			
+			
+
 
 				}
 
