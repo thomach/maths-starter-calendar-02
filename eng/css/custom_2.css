@@ -3,7 +3,7 @@ body {
 
 }
 
-img {max-width:60%; height:auto;}
+img {max-width:60%; height:auto; max-height:90%}
 
 
 }
@@ -134,7 +134,7 @@ img {max-width:60%; height:auto;}
 	background: #0a2356 ;  /*#0a2356 colour change for background will be in white*/
 	/*background: rgba(246, 246, 246, 0.9);*//*This was the light grey transparent background for content reveal*/
 	width: 100%;
-	height: 95%;
+	height: 100%;
 	position: absolute;
 	z-index: 100;
 	top: 100%;
@@ -327,29 +327,35 @@ span.hideAns:hover{ background-color:#000;}
 
 
 .questioncontainer {
+	height:400px;
 	background-color: #fff;
 
 
 }
 
 .questiontext p {
+	height:150px;
 	padding-left: 20px;
 	text-align: left;
 	background-color: #34C1FD;
 }
 
 .answercontainer {
+		height:400px;
 	background-color: #fff;
 }
 .answertext p {
+		height:150px;
 	padding-left: 20px;
 	text-align: left;
 	background-color: #34C1FD;
 }
+.mshighlight {
+	font-weight: bold;
+	color: #E05114;
+	white-space:nowrap;
 
-
-
-
+}
 
 
 
