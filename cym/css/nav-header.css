@@ -1,0 +1,220 @@
+
+
+/*--------------------------------
+ Functional Styles (Required)
+---------------------------------*/
+
+
+.menu > li { 
+	list-style: none;
+	float:left;	}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+	/*-.menu { 
+		display: none;
+		 opacity: 0; 
+		 width: 100%;
+		 position: relative; 
+		
+		}*/
+
+
+	.menu > li { 
+		display: block;
+		 width: 80px; margin: 0;
+		  }
+
+	.menu > li > a { 
+		display: block; 
+		width: 100%; 
+		text-decoration: none; 
+		-webkit-box-sizing:
+		border-box; 
+		-moz-box-sizing: 
+		border-box; 
+		box-sizing: 
+		border-box; }
+
+}
+
+
+
+.header{
+	/*min-height: 100px;
+	height: 100%;*/
+
+	padding: 0 20px;
+	background: #FFFFFF;
+}
+.logo {
+ 	width: 380px;
+    height: 41px;
+    text-indent: 3.0em;
+    border: 0;
+    margin: 0;
+  	background: url("../images/wjec-logo_tn.png") no-repeat scroll 0% 0%;
+	/*background: url(../images/wjec-logo_lg.png);*/
+}
+#logo a {
+    display: block;
+    width: 380px; /* larger than actual image? */
+    height: 120px;
+    text-decoration: none;
+    border: 0;
+    color: #fff;
+}
+
+.nav{ 
+	display: block; 
+	float: right; 
+
+
+}
+
+
+
+
+.menu > li > a{
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+
+}
+
+/*.menu > li > a:hover, .menu > li > a:focus{
+background: #F2F2F2;
+	box-shadow: inset 0px 5px #51C1F1;
+	color: #51C1F1;
+	padding: 10px 10px 10px;
+
+				
+}*/
+
+ul {
+list-style: none;
+}
+.ct-connect{
+	width: 365px;
+	float: right;
+	position: relative;
+	right: 0px;
+	left: 0px; 
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	height: 34px;
+
+
+}
+.ct-connect li{
+	float: right;
+
+
+	
+}
+.ct-connect li a{
+	display: block;
+	width: 36px;
+	height: 36px;
+	outline:none;
+	margin: 0 4px;
+    background:transparent url(../images/social-icons-03.png) no-repeat 0 -268px;
+    text-indent:-9000px;
+	position: relative;
+
+}
+.ct-connect li .ct-connect-rss{
+    background-position:0px -2px;
+}
+.ct-connect li .ct-connect-rss:hover{
+    background-position:0 -40px;
+}
+.ct-connect li .ct-connect-email{
+    background-position:-42px -2px;
+}
+.ct-connect li .ct-connect-email:hover{
+    background-position:-42px -40px;
+}
+.ct-connect li .ct-connect-twitter{
+    background-position:-84px -2px;
+}
+.ct-connect li .ct-connect-twitter:hover{
+    background-position:-84px -40px;
+}
+.ct-connect li .ct-connect-facebook{
+    background-position:-126px -2px;
+}
+.ct-connect li .ct-connect-facebook:hover{
+    background-position:-126px -40px;
+}
+.ct-connect li .ct-connect-gplus{
+    background-position:-168px -2px;
+}
+.ct-connect li .ct-connect-gplus:hover{
+    background-position:-168px -40px;
+}
+.ct-connect li .ct-connect-linkedin{
+    background-position:-208px -2px;
+}
+.ct-connect li .ct-connect-linkedin:hover{
+    background-position:-208px -40px;
+}
+.ct-connect li .ct-connect-download{
+    background-position:-250px -2px;
+}
+.ct-connect li .ct-connect-download:hover{
+    background-position:-250px -40px;
+}
+
+.lang {font-size: 24px;}
+.lang a{
+	font-size: 24px;
+	font-weight: 800;
+		display: block;
+		width: 100px;
+		margin: 10px 0;
+		padding: 10px 20px;
+		background: #51C1F1;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		text-align: center;
+		font-size: 12px;
+		color: #FFFFFF;
+		-webkit-transition: all 0.5s linear;
+		-moz-transition: all 0.5s linear;
+		-o-transition: all 0.5s linear;
+		transition: all 0.5s linear;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box; 
+
+		}
+
+.lang a:hover {background: #45ABD6;}		
+}
+
+@media only screen and (max-width: 768px){
+}
+@media only screen and (max-width: 479px){
+
+
+
+
+}
+
+
+

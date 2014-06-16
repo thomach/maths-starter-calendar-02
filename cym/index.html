@@ -10,19 +10,49 @@
 		<meta name="keywords" content="responsive, maths, mathematics, GCSE, starter, wjec, arithmatic, numercy, algebra, geometry, trigonometry, multiplication, probability, exam, revision, questions, answers, money," />
 		<meta name="author" content="Codrops" />
 
-	
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+		<script type='text/javascript' src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="css/calendar.css" />
 		<link rel="stylesheet" type="text/css" href="css/custom_2.css" />
+		<link rel="stylesheet" type="text/css" href="css/nav-header.css" />
+
 
 		<script src="js/modernizr.custom.63321.js"></script>
 
 
+		<!--
+
+				<style  type="text/css">
+
+				@media (min-width : 1824px) {
+				    .math {font-size:800%; background-color: #999; }
+				}
+
+				@media (min-width : 1224px) {
+					.math *.[mathsize="big"] {font-size:300%; background-color: #999;}
+
+				}
+				@media (min-width: 481px) and (max-width: 768px) {
+				    .math {font-size:200%; background-color: #999;}
+				}
+				 
+				@media (min-width: 321px) and (max-width: 480px) {
+				    .math {font-size:50%; background-color: #333;}
+				}
+				 
+				@media (max-width: 320px) {
+				    .math {font-size:50%;}
+				}
+				</style>
+		-->
 
 
 	</head>
-	<body>
 
+	<body>
 
 
 
@@ -30,32 +60,64 @@
 
 			<header class="clearfix">
 
-
-
-
-				<h1>Problem Mathemateg y Dydd<span>yn jQuery and CSS3</span></h1>
-				<nav class="codrops-demos">
+<div class="headercon">
+			<h1 id="logo" class="logo"><a href="#" title="Refresh for Todays Maths Starter">Maths Starter of the Day</a> <!-- <span>WJEC Educational resources</span>--></h1>
+				<nav class="nav">
 					
-					<a class="current-demo" href="index.html">Cymraeg</a>
-					<a class="current-demo" href="../eng/index.html">English</a>
+      <ul class="lang">
+			    <!-- <li><a class="ct-connect-rss" href="#"><span>Rss Feed</span></a></li>-->
+						<li><a href="#" title="cymraeg">Cymraeg</a></li>
+						
+                            
+					</ul>
 				</nav>
+</div>
 			</header>
+
+
+
+			
 			<section class="main">
 				<div class="custom-calendar-wrap">
 					<div id="custom-inner" class="custom-inner">
 						<div class="custom-header clearfix">
+							
 							<nav>
-								<span id="custom-prev" class="custom-prev"></span>
+
+								<span id="custom-prev" class="custom-prev"></span>								
 								<span id="custom-next" class="custom-next"></span>
 							</nav>
+
 							<h2 id="custom-month" class="custom-month"></h2>
-							<h3 id="custom-year" class="custom-year"></h3>
+							<!--<h3 id="custom-year" class="custom-year"></h3>-->
 						</div>
 						<!-- For the calendar plugin to work, we simply need a container with the class “fc-calendar-container”-->
 						<div id="calendar" class="fc-calendar-container"></div>
 					</div>
 				</div>
 			</section>
+
+			<footer>
+				<div class="footercon">
+
+
+      <ul class="ct-connect">
+			    <!-- <li><a class="ct-connect-rss" href="#"><span>Rss Feed</span></a></li>-->
+						<li><a class="ct-connect-email"  href="mailto:?subject=Check out 'Maths Starter of the Day'&amp;body=Check out this site http://resource.download.wjec.co.uk.s3.amazonaws.com/vtc/2013-14/wjec_04/maths-starter-calendar-03/eng/index.html" title="Share by Email">
+<img src="http://png-2.findicons.com/files/icons/573/must_have/48/mail.png"/></a></li>
+						<li><a class="ct-connect-twitter" href="https://twitter.com/intent/tweet?text=Check+out+this+resource!+http://resource.download.wjec.co.uk.s3.amazonaws.com/vtc/2013-14/wjec_04/maths-starter-calendar-03/eng/index.html" title="Share on Twitter"><span>Share on Twitter</span></a></li>
+						<li><a class="ct-connect-facebook" href="http://www.facebook.com/share.php?u=http://resource.download.wjec.co.uk.s3.amazonaws.com/vtc/2013-14/wjec_04/maths-starter-calendar-03/eng/index.html" title="Share on Facebook"><span>Share on Facebook</span></a></li>
+						<li><a class="ct-connect-gplus" href="https://plusone.google.com/_/+1/confirm?hl=en&url=http%3A%2F%2F%20http://www.ngfl-cymru.org.uk/" rel="publisher" title="Share on Google+"><span>Share on Google+</span></a></li>
+                        
+                        	<li><a class="ct-connect-linkedin" href="https://plusone.google.com/_/+1/confirm?hl=en&url=http%3A%2F%2F%20http://resource.download.wjec.co.uk.s3.amazonaws.com/vtc/2013-14/wjec_04/maths-starter-calendar-03/eng/index.html" rel="publisher" title="Share on LinkedIn"><span>Share on LinkedIn</span></a></li>
+                            
+                            	<!-- <li><a class="ct-connect-download" href="#" title="Download Resource as PDF"><span>Download Resource as PDF</span></a></li>-->
+                            	
+					</ul>
+						<h5>&nbsp;&nbsp;&nbsp;&nbsp;© WJEC / CBAC   <!-- <span>with jQuery and CSS3</span>--></h5>
+</div>
+
+			</footer>
 		</div><!-- /container -->
 
 
@@ -98,11 +160,12 @@
 						//Check if Element Exists and returns content for the Day automatic
 
 						onAuto : function ($el, $contentEl, dateProperties){
-						
+						MathJax.Hub.Queue(function(){
 						console.log('go');
 						if( $contentEl.length > 0 ) {
 								showEvents( $contentEl, dateProperties );
 							}
+						})
 						
 						
 						
@@ -142,9 +205,11 @@
 
 				$( '#custom-next' ).on( 'click', function() {
 					cal.gotoNextMonth( updateMonthYear );
+					MathJax.Hub.Typeset();
 				} );
 				$( '#custom-prev' ).on( 'click', function() {
 					cal.gotoPreviousMonth( updateMonthYear );
+					MathJax.Hub.Typeset();
 				
 				} );
 					
@@ -166,8 +231,12 @@
 					
 					// The following provides the content shell for the openining slider of the Maths question slider... 
 
-					var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>Problem mathemateg i ' + dateProperties.monthname + ' ' + dateProperties.day + ', ' + dateProperties.year + '</h4></div>' ),
-						$close = $( '<span class="custom-content-close"></span>' ).on( 'click', hideEvents );
+					var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>' + dateProperties.monthname + ' ' + dateProperties.day + ', ' + dateProperties.year + '</h4></div>' ),
+						$close = $( '<span class="custom-content-close"></span>' ).on( 'click', function(){
+							hideEvents();
+														
+							
+							}) 
 
 
 
@@ -197,13 +266,25 @@
 			
 				function hideEvents() {
 
+					
 					var $events = $( '#custom-content-reveal' );
 					if( $events.length > 0 ) {
 						
 						$events.css( 'top', '100%' );
-						Modernizr.csstransitions ? $events.on( transEndEventName, function() { $( this ).remove(); } ) : $events.remove();
+						Modernizr.csstransitions ? $events.on( transEndEventName, function() { 
+						
+						$( this ).remove(); } ) : $events.remove();
+	}
 
-					}
+			//// HIDE ANSWER SHOW QUESTION ON CLOSE
+			$('.custom-content-showanswer').addClass('showAns').attr('data-content','');
+			$('.custom-content-showanswer').removeClass('hideAns').attr('data-content','');
+			$('.answer').hide();
+			$('.question').show();
+					
+			ansVisible = false;			
+			
+
 
 				}
 
@@ -250,5 +331,8 @@
 
 
 		</script>
+
+
+		
 	</body>
 </html>

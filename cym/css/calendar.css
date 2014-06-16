@@ -32,7 +32,7 @@ width: 120%;
 	height: 30px;
 	line-height: 30px;
 	background: #ccc;
-	color: #fff;
+	color: #000;
 }
 
 .fc-calendar .fc-body {
@@ -43,15 +43,15 @@ width: 120%;
 	height: -webkit-calc(100% - 30px);
 	height: -ms-calc(100% - 30px);
 	height: calc(100% - 30px);
-	border: 1px solid #ddd;
+	border: 1px solid #fff; /*this is the grey box round calendar */
 }
 
 /* I have altered width to 120% to fit browser across width of screen *still gap in ie9 - any 
 problem in cross browser testing suggest change back to 100%*/
 
 .fc-calendar .fc-row {
-	width: 120%;
-	border-bottom: 1px solid #ddd;
+	width: 105%;
+	border-bottom: 1px solid #fff; /* grey border around calendar numbers - lines */
 }
 
 /*BELOW - The important part of making the calendar grid fluid is the styling 
@@ -80,7 +80,7 @@ of the row and the div (or the “cell”):*/
 .fc-calendar .fc-head > div {
 	float: left;
 	height: 80%;
-	width:  16.28%; /* 100% / 7 */
+	width:  12.28%; /* 100% / 7 ...tinkered this to fit in safari last from 16.28% */ 
 	width: -moz-calc(98%/7);
 	width: -webkit-calc(98%/7);
 	width: -ms-calc(82%/7);
@@ -106,7 +106,8 @@ styling of the row and the div (or the “cell”):
 
 
 .fc-calendar .fc-row > div {
-	border-right: 1px solid #ddd;
+	border-right: 1px solid #fff; /*grey now white border frame around days of calendar*/
+	border-left: 1px solid #fff; /*grey now white border frame around days of calendar*/
 	padding: 4px;
 	overflow: hidden;
 	position: relative;
@@ -136,7 +137,7 @@ styling of the row and the div (or the “cell”):
 }
 
 .fc-calendar .fc-row > div.fc-today {
-	background: #fff4c3;
+	background: #34C1FD;
 }
 
 .fc-calendar .fc-row > div.fc-out {
@@ -151,3 +152,28 @@ styling of the row and the div (or the “cell”):
 .fc-calendar .fc-row:last-child {
 	border-bottom: none;
 }
+
+	/* 
+	Generic Styling, for Desktops/Laptops 
+	*/
+	.custom-content-reveal table { 
+		width: 100%; 
+		border-collapse: collapse; 
+
+	}
+	/* Zebra striping */
+	.custom-content-reveal tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+	.custom-content-reveal th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+	.custom-content-reveal td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: left; 
+	}
+
+	

@@ -38,7 +38,7 @@
 		//BELOW: Change the names of days and months to have Calendario adapt to your spoken language
 
 		weeks : [ 'Dydd Sul', 'Dydd Llun', 'Dydd Mawrth', 'Dydd Mercher', 'Dydd Iau', 'Dydd Gwener', 'Dydd Sadwrn' ],
-		weekabbrs : [ 'Sul', 'Llu', 'Maw', 'Mer', 'Iau', 'Gwe', 'Sad' ],
+		weekabbrs : [ 'Sul', 'Llun', 'Maw', 'Mer', 'Iau', 'Gwe', 'Sad' ],
 		months : [ 'Ionawr', 'Chwefror', 'Mawrth', 'Ebrill', 'Mai', 'Mehefin', 'Gorffennaf', 'Awst', 'Medi', 'Hydref', 'Tachwedd', 'Rhagfyr' ],
 		monthabbrs : [ 'Ion', 'Chw', 'Maw', 'Ebr', 'Mai', 'Meh', 'Gor', 'Aws', 'Med', 'Hyd', 'Tac', 'Rha' ],
 		// choose between values in options.weeks or options.weekabbrs

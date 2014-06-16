@@ -1,0 +1,74 @@
+ul {
+list-style: none;
+}
+.ct-connect{
+	width: 365px;
+	float: left;
+	position:absolute;
+	right: 20px;
+	left: 20px; 
+	margin: 180px 0px 10px 0px;
+	padding: 0px;
+	height: 34px;
+
+
+}
+.ct-connect li{
+	float: left;
+
+
+	
+}
+.ct-connect li a{
+	display: block;
+	width: 36px;
+	height: 36px;
+	outline:none;
+	margin: 0 4px;
+    background:transparent url(../images/social-icons-03.png) no-repeat 0 -268px;
+    text-indent:-9000px;
+	position: relative;
+
+}
+.ct-connect li .ct-connect-rss{
+    background-position:0px -2px;
+}
+.ct-connect li .ct-connect-rss:hover{
+    background-position:0 -40px;
+}
+.ct-connect li .ct-connect-email{
+    background-position:-42px -2px;
+}
+.ct-connect li .ct-connect-email:hover{
+    background-position:-42px -40px;
+}
+.ct-connect li .ct-connect-twitter{
+    background-position:-84px -2px;
+}
+.ct-connect li .ct-connect-twitter:hover{
+    background-position:-84px -40px;
+}
+.ct-connect li .ct-connect-facebook{
+    background-position:-126px -2px;
+}
+.ct-connect li .ct-connect-facebook:hover{
+    background-position:-126px -40px;
+}
+.ct-connect li .ct-connect-gplus{
+    background-position:-168px -2px;
+}
+.ct-connect li .ct-connect-gplus:hover{
+    background-position:-168px -40px;
+}
+.ct-connect li .ct-connect-linkedin{
+    background-position:-208px -2px;
+}
+.ct-connect li .ct-connect-linkedin:hover{
+    background-position:-208px -40px;
+}
+.ct-connect li .ct-connect-download{
+    background-position:-250px -2px;
+}
+.ct-connect li .ct-connect-download:hover{
+    background-position:-250px -40px;
+}
