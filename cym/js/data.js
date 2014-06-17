@@ -2,7 +2,7 @@ var codropsEvents = {
 
 
 
-/*April */	
+/*Ebrill */	
 
 
 '04-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><math><mrow><mi>x</mi><mo>&#x2212;</mo><mn>7</mn><mo>=</mo><mn>4</mn></mrow></math></div><div class="questiontext"><p> Solve the equation above.</p></div></div><div class="answer"><div class="answercontainer"><math><mrow><mi>x</mi><mo>&#x2212;</mo><mn>7</mn><mo>=</mo><mn>4</mn></mrow></math></div><div class="answertext"><p><math><mrow><mi>x</mi><mtext>&#x00A0;</mtext><mo>=</mo><mtext>&#x00A0;</mtext><mn>4</mn><mtext>&#x00A0;</mtext><mo>+</mo><mtext>&#x00A0;</mtext><mn>7</mn><mtext>&#x00A0;</mtext><mo>=</mo><mtext>&#x00A0;</mtext><mn>11</mn></mrow></math</p></div></div></a>',
@@ -36,7 +36,10 @@ var codropsEvents = {
 '04-29-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut08_181_02_13a.png"></div><div class="questiontext"><p>Ysgrifennwch faint ongl x yn y diagram canlynol:</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Aut08_181_02_13a.png"></div><div class="answertext"><p>128</p></div></div></a>',
 '04-30-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut08_181_02_13b.png"></div><div class="questiontext"><p>Cyfrifwch arwynebedd y triongl uchod.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Aut08_181_02_13b.png"></div><div class="answertext"><p>Arwynebedd triongl yw 1/2(sail × uchder), felly 1/2(12 x 8) = 1/2(96)=48cm2</p></div></div></a>',
 
-/*MAY */	
+
+
+
+/*Mai */	
 
 
 '05-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer">2472 = ????</div><div class="questiontext"><p>Write 2472<br>(i) correct to the nearest 10 <br>(ii) correct to the nearest 100</div></div><div class="answer"><div class="answercontainer">2472 = ???? <br><br> From the list of numbers given above: <br> write down a square number <br> write down a multiple of 6 <br> write down a factor of 40  <br><br></div><div class="answertext"><p>(i)2470    (ii) 2500</p></div></div></a>',
@@ -72,7 +75,7 @@ var codropsEvents = {
 '05-31-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut09_185_11_1c.png"></div><div class="questiontext"><p>Write down all the factors of 55.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Aut09_185_11_1c.png"></div><div class="answertext"><p>The factors of 55 are all the numbers that divide into 55. <br> 1, 5, 11, 55</p></div></div></a>',
 
 
-/*JUNE */	
+/*Mehefin */	
 
 '06-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut09_185_12_1c.png"></div><div class="questiontext"><p>(i)What percentage of the following shape is shaded? <br> (ii) What percentage of the shape is NOT shaded?</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Aut09_185_12_1c.png"></div><div class="answertext"><p>(i) 40% <br> (ii) 60%</p></div></div></a>',
 '06-02-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer">53 861 = ????</div><div class="questiontext"><p>Write down 53 861 correct to 3 significant figures.</p></div></div><div class="answer"><div class="answercontainer">53 861 = ????</div><div class="answertext"><p>53900</p></div></div></a>',
@@ -106,7 +109,7 @@ var codropsEvents = {
 '06-30-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut11-185-08-15a.png"></div><div class="questiontext"><p>The number of goals scored in 40 matches were noted. The results are summarised in the table above.   </p></div></div><div class="answer"><div class="answercontainer"><img src="images/Aut11-185-08-15a.png"></div><div class="answertext"><p><math><mrow><mfrac><mrow><mn>11</mn></mrow><mrow><mn>40</mn></mrow></mfrac></mrow></math>at least 2 inlcudes 2, therefore 6 + 4 + 1 = 11, 11 out of 40</p></div></div></a>',
 
 
-/*JULY*/
+/*Gorffennaf*/
 
 
 '07-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut11_185_08_16a.png"></div><div class="questiontext"><p>Calculate the internet price of this tumble drier.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Aut11_185_08_16a.png"></div><div class="answertext"><p>17÷100x269 = £45.73, 269 - 45.73=£223.27</p></div></div></a>',
@@ -148,7 +151,7 @@ var codropsEvents = {
 '07-31-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><math><mrow><mn>5</mn><mo>&#x22C5;</mo><msup><mn>6</mn><mn>2</mn></msup>  <mo>+</mo><msqrt><mrow><mn>30</mn></mrow></msqrt></mrow></math></div><div class="questiontext"><p>Calculate the equation above, giving your answer to three significant figures.</p></div></div><div class="answer"><div class="answercontainer"><math><mrow><mn>5</mn><mo>&#x22C5;</mo><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msqrt><mrow><mn>30</mn></mrow></msqrt></mrow></math></div><div class="answertext"><p><math><mrow><mtext>36</mtext><mo>&#x22C5;</mo><mtext>8</mtext></mrow></math></p></div></div></a>',
 
 
-/*AUGUST*/
+/*Awst*/
 
 
 '08-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Jan07_181_02_1a.png"></div><div class="questiontext"><p>Bronwen has £45 to spend on DVDs. Each DVD costs £8.49.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Jan07_181_02_1a.png"></div><div class="answertext"><p>45÷8.49 = 5.3 <br> 5 DVDs</p></div></div></a>',
@@ -184,7 +187,7 @@ var codropsEvents = {
 '08-31-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum12-437004-7a.png"><br>2, 8, 32, 128</div><div class="questiontext"><p>Describe, in words, the rule for continuing the sequence shown above.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum12-437004-7a.png"><br>2, 8, 32, 128</div><div class="answertext"><p>multiply by four</p></div></div></a>',
 
 
-/*SEPTEMBER*/
+/*Medi*/
 
 '09-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum07_181_02_3.png"></div><div class="questiontext"><p>Write down the coordinates of the mid-point of BC. </p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum07_181_02_3.png"></div><div class="answertext"><p><math><mrow><mo stretchy="false">(</mo><mn>8</mn><mo>,</mo><mn>7</mn><mo stretchy="false">)</mo></mrow></math</p></div></div></a>',
 '09-02-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum07_181_02_3.png"></div><div class="questiontext"><p>Complete the following sentence. Angle CAB is called an ???? angle.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum07_181_02_3.png"></div><div class="answertext"><p>obtuse</p></div></div></a>',
@@ -220,7 +223,7 @@ var codropsEvents = {
 '09-30-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><math><mrow><mn>7</mn><mi>a</mi><mtext>&#x00A0;</mtext><mo>+</mo><mtext>&#x00A0;</mtext><mn>2</mn><mi>b</mi><mtext>&#x00A0;</mtext><mo>&#x2013;</mo><mtext>&#x00A0;</mtext><mn>3</mn><mi>a</mi><mtext>&#x00A0;</mtext><mo>&#x2013;</mo><mtext>&#x00A0;</mtext><mn>8</mn><mi>b</mi></mrow></math></div><div class="questiontext"><p>Simplify the equation above.</p></div></div><div class="answer"><div class="answercontainer"><math><mrow><mn>7</mn><mi>a</mi><mtext>&#x00A0;</mtext><mo>+</mo><mtext>&#x00A0;</mtext><mn>2</mn><mi>b</mi><mtext>&#x00A0;</mtext><mo>&#x2013;</mo><mtext>&#x00A0;</mtext><mn>3</mn><mi>a</mi><mtext>&#x00A0;</mtext><mo>&#x2013;</mo><mtext>&#x00A0;</mtext><mn>8</mn><mi>b</mi></mrow></math></div><div class="answertext"><p><math><mrow><mn>4</mn><mi>a</mi><mtext>&#x00A0;</mtext><mo>-</mo><mtext>&#x00A0;</mtext><mn>6</mn><mi>b</mi></mrow></math></p></div></div></a>',
 
 
-/*OCTOBER*/
+/*Hydref*/
 
 '10-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><math><mrow><mn>5</mn><mi>x</mi><mtext>&#x00A0;</mtext><mo>+</mo><mtext>&#x00A0;</mtext><mn>3</mn><mi>y</mi></mrow></math></div><div class="questiontext"><p>Find the value of the equation above when x = 4 and y = –3.</p></div></div><div class="answer"><div class="answercontainer"><math><mrow><mn>5</mn><mi>x</mi><mtext>&#x00A0;</mtext><mo>+</mo><mtext>&#x00A0;</mtext><mn>3</mn><mi>y</mi></mrow></math></div><div class="answertext"><p><math><mrow><mn>5</mn><mtext>&#x00A0;</mtext><mi>x</mi><mtext>&#x00A0;</mtext><mn>4</mn><mtext>&#x00A0;</mtext><mo>+</mo><mtext>&#x00A0;</mtext><mn>3</mn><mtext>&#x00A0;</mtext><mi>x</mi><mtext>&#x00A0;</mtext><mo stretchy="false">(</mo><mo>-</mo><mn>3</mn><mo stretchy="false">)</mo><mtext>&#x00A0;</mtext><mo>=</mo><mtext>&#x00A0;</mtext><mn>20</mn><mtext>&#x00A0;</mtext><mo>-</mo><mtext>&#x00A0;</mtext><mn>9</mn><mtext>&#x00A0;</mtext><mo>=</mo><mtext>&#x00A0;</mtext><mn>11</mn></mrow></math></p></div></div></a>',
 '10-02-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><math><mrow><mfrac><mrow><mn>3</mn><mo>&#x22C5;</mo><mn>29</mn><mo>&#x00D7;</mo><mn>47</mn><mo>&#x22C5;</mo><mn>3</mn></mrow><mrow><mn>73</mn><mo>&#x22C5;</mo><mn>2</mn><mo>&#x2212;</mo><mn>41</mn><mo>&#x22C5;</mo><mn>9</mn></mrow></mfrac></mrow></math></div><div class="questiontext"><p>Find the value of the equation above, correct to 3 decimal places.</p></div></div><div class="answer"><div class="answercontainer"><math><mrow><mfrac><mrow><mn>3</mn><mo>&#x22C5;</mo><mn>29</mn><mo>&#x00D7;</mo><mn>47</mn><mo>&#x22C5;</mo><mn>3</mn></mrow><mrow><mn>73</mn><mo>&#x22C5;</mo><mn>2</mn><mo>&#x2212;</mo><mn>41</mn><mo>&#x22C5;</mo><mn>9</mn></mrow></mfrac></mrow></math></div><div class="answertext"><p><math><mrow><mtext>4</mtext><mo>&#x22C5;</mo><mtext>972</mtext></mrow></math></p></div></div></a>',
@@ -265,7 +268,7 @@ var codropsEvents = {
 '10-31-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer">Twenty five million = ????</div><div class="questiontext"><p>Write down the number twenty five million in figures.</p></div></div><div class="answer"><div class="answercontainer">Twenty five million = ????</div><div class="answertext"><p>25000000</p></div></div></a>',
 
 
-/*NOVEMBER*/
+/*Tachwedd*/
 
 '11-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut11_185_12_13.png"></div><div class="questiontext"><p>Write down two factors of 32.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Aut11_185_12_13.png"></div><div class="answertext"><p>4, 16</p></div></div></a>',
 '11-02-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut11_185_12_13.png"></div><div class="questiontext"><p>Write down the multiples of 9, which lie between 1 and 30.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Aut11_185_12_13.png"></div><div class="answertext"><p>9,18,27</p></div></div></a>',
@@ -302,7 +305,7 @@ var codropsEvents = {
 '11-29-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum08_181_01_11.png"></div><div class="questiontext"><p>Find the size of the angle marked y.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum08_181_01_11.png"></div><div class="answertext"><p>180° - 46° = 134°. 134° ÷ 2 = 67°. 180° - 67° = 113°</p></div></div></a>',
 '11-30-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum08_184_01_17.png"></div><div class="questiontext"><p>Reflect the shape marked A in the line x = 1.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum08_184_01_17.png"></div><div class="answertext"><p>Need grid showing correct position.</p></div></div></a>',
 
-/*DECEMBER*/
+/*Rhagfyr*/
 
 '12-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum08_184_01_18a.png"></div><div class="questiontext"><p>Find 240 as a percentage of 600.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum08_184_01_18a.png"></div><div class="answertext"><p><math><mrow><mfrac><mrow><mn>240</mn></mrow><mrow><mn>600</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>40</mn></mrow><mrow><mn>100</mn></mrow></mfrac><mo>=</mo><mn>40</mn><mi>&#x0025;</mi></mrow></math></p></div></div></a>',
 '12-02-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum08_184_01_19.png"></div><div class="questiontext"><p>In the diagram below, AB and AC are two straight lines meeting at A. Two parallel lines PQ and RS cut AB and AC at D, E, F and G as shown. Angles of 57°, 116° and x are as shown. Find the size of the angle marked x.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum08_184_01_19.png"></div><div class="answertext"><p>Angle PDA = 116° (corresponding angles). Angle ADE = 180° - 116° = 64°. Angle AED = 57° (Verticalle opposite Angle QEG). X = 180° - 64° - 57° = 180° - 121° = 59°</p></div></div></a>',
@@ -349,7 +352,7 @@ var codropsEvents = {
 '12-31-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum08_185_07_11b.png"></div><div class="questiontext"><p>Write down 0·04136 correct to 2 significant figures.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum08_185_07_11b.png"></div><div class="answertext"><p>0.041</p></div></div></a>',
 
 
-/*JANUARY*/
+/*Ionawr*/
 
 '01-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum08_185_07_12.png"></div><div class="questiontext"><p>The diagram shows an equilateral triangle with its vertices on three sides of a square. Write down the size of the angle marked a.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum08_185_07_12.png"></div><div class="answertext"><p>The triangle is equilateral so a = 60°</p></div></div></a>',
 '01-02-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum08_185_07_12.png"></div><div class="questiontext"><p>The diagram shows an equilateral triangle with its vertices on three sides of a square. Find the size of the angle marked b.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum08_185_07_12.png"></div><div class="answertext"><p>b = 180° - 60° - 80° = 180° - 140° = 40°</p></div></div></a>',
@@ -389,7 +392,7 @@ var codropsEvents = {
 '01-31-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><math><mrow><mtext>Solve&#x00A0;</mtext><mfrac><mi>x</mi><mn>4</mn></mfrac>  <mtext>&#x00A0;=&#x00A0;8</mtext></mrow></math></div><div class="questiontext"><p>Solve the equation above.</p></div></div><div class="answer"><div class="answercontainer"><math><mrow><mtext>Solve&#x00A0;</mtext><mfrac><mi>x</mi><mn>4</mn></mfrac>  <mtext>&#x00A0;=&#x00A0;8</mtext></mrow></math></div><div class="answertext"><p><math><mrow><mi>x</mi><mo>=</mo><mn>8</mn><mo>&#x00D7;</mo><mn>4</mn><mo>=</mo><mn>32</mn></mrow></math></p></div></div></a>',
 
 
-/*FEBRUARY*/
+/*Chwefror*/
 
 
 '02-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer">3a – 2b</div><div class="questiontext"><p>Find the value of  equation above when  a = –1 and b = 5.</p></div></div><div class="answer"><div class="answercontainer">3a – 2b</div><div class="answertext"><p>3 x -1 - 2 x 5 = -3 - 10 = -13</p></div></div></a>',
@@ -431,7 +434,7 @@ var codropsEvents = {
 
 
 
-/*MARCH*/
+/*Mawrth*/
 
 
 '03-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><math><mrow><msup><mi>a</mi><mn>5</mn></msup><mo>&#x00D7;</mo><msup> <mi>a</mi><mn>2</mn></msup></mrow></math></div><div class="questiontext"><p>Simplify the equation above.</p></div></div><div class="answer"><div class="answercontainer"><math><mrow><msup><mi>a</mi><mn>5</mn></msup><mo>&#x00D7;</mo><msup> <mi>a</mi><mn>2</mn></msup></mrow></math></div><div class="answertext"><p><math><mrow><msup><mi>a</mi><mn>7</mn></msup></mrow></math></p></div></div></a>',

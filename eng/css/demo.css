@@ -46,6 +46,7 @@ h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight
 a {
 	color: #006;
 	text-decoration: none;
+	
 }
 h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight: normal;  color: #fff;}
 
@@ -63,7 +64,7 @@ h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight
 .headercon {padding: 0 30px 50px 30px; width: 100%; max-width: 1100px;margin: 0 auto;}
 
 
-.footer {width: 100%; padding: 0px; }
+.footer {position:absolute; bottom:0; width: 100%; padding: 0px; }
 
 
 .footercon {padding: 0 30px 30px 30px; width: 100%; max-width: 1100px;margin: 0 auto;}
@@ -76,6 +77,7 @@ h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight
 	max-width: 1100px;
 	/*min-width: 30%;*/
 	margin: 0 auto;
+
 
 
 }
