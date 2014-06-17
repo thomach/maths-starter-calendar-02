@@ -342,6 +342,12 @@ span.hideAns:hover{ background-color:#000;}
 
 }
 
+.questioncontainer p {
+	padding-top: 60px;
+	font-size:  22px;
+
+}
+
 .questiontext p {
 	height:150px;
 	padding-left: 20px;
@@ -351,12 +357,18 @@ span.hideAns:hover{ background-color:#000;}
 }
 
 .answercontainer {
-		height:400px;
+	height:400px;
 	background-color: #fff;
 	cursor: default;
 }
+
+.answercontainer  p {
+	padding-top: 60px;
+	font-size:  22px;
+}
+
 .answertext p {
-		height:150px;
+	height:150px;
 	padding-left: 20px;
 	text-align: left;
 	background-color: #34C1FD;

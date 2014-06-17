@@ -42,7 +42,11 @@ var codropsEvents = {
 /*Mai */	
 
 
-'05-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer">2472 = ????</div><div class="questiontext"><p>Write 2472<br>(i) correct to the nearest 10 <br>(ii) correct to the nearest 100</div></div><div class="answer"><div class="answercontainer">2472 = ???? <br><br> From the list of numbers given above: <br> write down a square number <br> write down a multiple of 6 <br> write down a factor of 40  <br><br></div><div class="answertext"><p>(i)2470    (ii) 2500</p></div></div></a>',
+'05-01-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><p>2472 = ????</p></div><div class="questiontext"><p>Ysgrifennwch 2472:<br>(a) yn gywir i&#39;r 10 agosaf  <br>(b) yn gywir i&#39;r 100 agosaf. </div></div><div class="answer"><div class="answercontainer"><p>2472 = ???? <br><br> Ysgrifennwch 2472:<br>(a) yn gywir i&#39;r 10 agosaf  <br>(b) yn gywir i&#39;r 100 agosaf.</p></div><div class="answertext"><p>(i)2470    (ii) 2500</p></div></div></a>',
+
+
+
+
 '05-02-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Aut07_181_02_5.png"></div><div class="questiontext"><p>Write down two pairs of congruent shapes from the diagrams above.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Aut07_181_02_5.png"></div><div class="answertext"><p>B and I, E and J</p></div></div></a>',
 '05-03-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><p>(i) 3, 9, 15, 21, ????<br> (ii) 20, 17, 14, 11, ????</p></div><div class="questiontext"><p> <br> Write down the next number in the sequences above. </p></div></div><div class="answer"><div class="answercontainer"><p>(i) 3, 9, 15, 21, ????<br> (ii) 20, 17, 14, 11, ????</p></div><div class="answertext"><p>(i) rule is  + 6   = 27 <br>(ii) rule is -3 = 8</p></div></div></a>',
 '05-04-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><p>2, 9, 16, 23,</p></div><div class="questiontext"><p>Describe, in words, the rule for finding the next number in the sequence given above.</p></div></div><div class="answer"><div class="answercontainer"><p>2, 9, 16, 23,</p></div><div class="answertext"><p>add seven </p></div></div></a>',

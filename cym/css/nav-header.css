@@ -51,7 +51,7 @@
 	background: #FFFFFF;
 }
 .logo {
- 	width: 380px;
+ 	width: 500px;
     height: 41px;
     text-indent: 3.0em;
     border: 0;
@@ -61,7 +61,7 @@
 }
 #logo a {
     display: block;
-    width: 380px; /* larger than actual image? */
+    width: 500px; /* larger than actual image? */
     height: 120px;
     text-decoration: none;
     border: 0;
