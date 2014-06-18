@@ -211,13 +211,13 @@ img {max-width:60%; height:auto; max-height:90%; border: 0px;}
 
 
 span.showAns:after{
-	content: attr(data-content) 'Show Answer';
+	content: attr(data-content) 'Dangos Ateb';
 }
 
 span.showAns:hover{ background-color:#000;}
 
 span.hideAns:after{
-	content: attr(data-content) 'Hide Answer';
+	content: attr(data-content) 'Cuddio Ateb';
 }
 
 span.hideAns:hover{ background-color:#000;}
