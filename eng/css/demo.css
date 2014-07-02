@@ -77,7 +77,8 @@ h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight
 	max-width: 1100px;
 	/*min-width: 30%;*/
 	margin: 0 auto;
-
+	overflow:auto;
+	padding-bottom: 150px;}  /* must be same height as the footer */
 
 
 }
