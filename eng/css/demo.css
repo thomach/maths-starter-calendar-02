@@ -52,33 +52,40 @@ h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight
 
 .container {
 	width: 100%;
-	height: 100%;
+	min-height: 100%;
 	position: relative;
 
 }
 
 
 
-.header {width: 100%; background-color: #999; }
+.header {width: 100%; background-color: #0a2356 ; }
 
-.headercon {padding: 0 30px 50px 30px; width: 100%; max-width: 1100px;margin: 0 auto;}
-
-
-.footer {position:absolute; bottom:0; width: 100%; padding: 0px; }
+.headercon {padding: 0px 30px 50px 30px; width: 100%; max-width: 1100px;margin: 0 auto;}
 
 
-.footercon {padding: 0 30px 30px 30px; width: 100%; max-width: 1100px;margin: 0 auto;}
+/*.footer {position:absolute; bottom:0; width: 100%; padding: 0px; }*/
+
+#footer {position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;  background-color: #0a2356 ;
+	clear:both;} 
+
+
+.footercon {padding: 10px 30px 30px 30px; width: 100%; max-width: 1100px;margin: 0 auto;}
 
 .container > 
 .main {
-
+	
 	padding: 0 30px 50px 30px;
 	width: 100%;	
 	max-width: 1100px;
 	/*min-width: 30%;*/
 	margin: 0 auto;
 	overflow:auto;
+
 	padding-bottom: 150px;}  /* must be same height as the footer */
+
 
 
 }
@@ -86,6 +93,7 @@ h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight
 
 	padding: 10px;
 	padding-bottom: 5px;
+
 	background: #0a2356 100%;
 }
 

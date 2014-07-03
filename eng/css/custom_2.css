@@ -164,16 +164,36 @@ img {max-width:60%; height:auto; max-height:90%; border: 0px;}
 	height: 20px;
 
 	text-align: center;
-	background: #34C1FD;
+
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	cursor: pointer;
-	line-height: 20px;
+	line-height: 18px;
 	padding: 0;
+
+	   font-size: 24px;
+		font-weight: 600;
+		display: block;
+
+
+		background: #51C1F1;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		text-align: center;
+	
+		color: #FFFFFF;
+		-webkit-transition: all 0.5s linear;
+		-moz-transition: all 0.5s linear;
+		-o-transition: all 0.5s linear;
+		transition: all 0.5s linear;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box; 
 }
+
 
 .custom-content-reveal span.custom-content-close:after {
 	content: 'x';
-	font-size: 18px;
+	font-size: 17px;
 	color: #fff;
 }
 
@@ -181,23 +201,30 @@ img {max-width:60%; height:auto; max-height:90%; border: 0px;}
 .custom-content-reveal span.custom-content-showanswer{
 	position: absolute;
 	/*width: 100%;*/
-	top: 25px;
+	top: 15px;
 	left:25px;
 	font-size: 18px;
 
     margin:0 7px 0 0;
-    background-color:#34C1FD;
-    border:1px solid #34C1FD;
-    border-top:1px solid #34C1FD;
-    border-left:1px solid #34C1FD;    
-    /*font-size:100%;*/
-    line-height:20px;
-    text-decoration:none;
-    font-weight:bold;
-    color:#0a2356;
-    cursor:pointer;
-    padding:5px 10px 6px 7px; 	
+   	font-size: 24px;
+	font-weight: 800;
+	display: block;
 
+	margin: 10px 0;
+	padding: 10px 20px;
+	background: #51C1F1;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		text-align: center;
+		font-size: 12px;
+		color: #FFFFFF;
+		-webkit-transition: all 0.5s linear;
+		-moz-transition: all 0.5s linear;
+		-o-transition: all 0.5s linear;
+		transition: all 0.5s linear;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box; 
 
 
 }
@@ -290,7 +317,7 @@ span.hideAns:hover{ background-color:#000;}
 		@media (min-width: 481px) and (max-width: 768px) {
 		   .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 22px;
+				font-size: 14px;
 				padding: 10px 30px;
 				text-align: center; /*content centre and postioning*/
 				display: block;
@@ -300,7 +327,7 @@ span.hideAns:hover{ background-color:#000;}
 		@media (min-width: 321px) and (max-width: 480px) {
 		    .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 20px;
+				font-size: 14px;
 		
 				text-align: center; /*content centre and postioning*/
 				display: block;
@@ -547,17 +574,26 @@ display: block;
 	width:60%;
 
     margin:0 7px 0 25px;
-    background-color:#34C1FD;
-    border:1px solid #dedede;
-    border-top:1px solid #eee;
-    border-left:1px solid #eee;    
-    font-size:55%;
-    line-height:130%;
-    text-decoration:none;
-    font-weight:bold;
-    color:#fff;
-    cursor: none;
-    padding:5px 5px 6px 5px; 	
+
+   font-size: 14px;
+	font-weight: 800;
+		display: block;
+
+		margin: 10px 0;
+		padding: 10px 20px;
+		background: #51C1F1;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		text-align: center;
+		font-size: 12px;
+		color: #FFFFFF;
+		-webkit-transition: all 0.5s linear;
+		-moz-transition: all 0.5s linear;
+		-o-transition: all 0.5s linear;
+		transition: all 0.5s linear;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box; 
 
 }
 
