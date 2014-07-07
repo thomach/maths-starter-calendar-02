@@ -293,56 +293,362 @@ span.hideAns:hover{ background-color:#000;}
 
 
 
-		@media (min-width : 1824px) {
+		@media (max-width : 1824px) {
+
 		    .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 26px;
+				font-size: 44px;
 				padding: 10px 30px;
 				text-align: center; /*content centre and postioning*/
 				display: block;
 			}
+			.questioncontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  28px;
+
+			}
+
+			
+			.questioncontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer2 p {
+				padding-top: 60px;
+				font-size:  24px;
+				line-height:200%;
+
+			}
+
+			.questiontext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+			.answercontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer  p {
+				padding-top: 60px;
+				font-size:  28px;
+			}
+
+			.answercontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer2  p {
+				padding-top: 60px;
+				font-size:  24px;
+				line-height:200%;
+			}
+
+			.answertext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+
 		}
 
-		@media (min-width : 1224px) {
-			.custom-content-reveal a,
+		    /* Large Devices, Wide Screens */
+    @media screen and (max-width : 1200px) {
+
+		    .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 22px;
+				font-size: 40px;
 				padding: 10px 30px;
 				text-align: center; /*content centre and postioning*/
 				display: block;
 			}
+			.questioncontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  24px;
+
+			}
+
+			
+			.questioncontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer2 p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+
+			}
+
+			.questiontext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+			.answercontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer  p {
+				padding-top: 60px;
+				font-size:  24px;
+			}
+
+			.answercontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer2  p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+			}
+
+			.answertext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
 
 
 		}
-		@media (min-width: 481px) and (max-width: 768px) {
+
+		  /* Medium Devices, Desktops */
+    @media screen and (max-width : 992px) {
+
+		    .custom-content-reveal a,
+			.custom-content-reveal span {
+				font-size: 40px;
+				padding: 10px 30px;
+				text-align: center; /*content centre and postioning*/
+				display: block;
+			}
+			.questioncontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  24px;
+
+			}
+
+			
+			.questioncontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer2 p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+
+			}
+
+			.questiontext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+			.answercontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer  p {
+				padding-top: 60px;
+				font-size:  24px;
+			}
+
+			.answercontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer2  p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+			}
+
+			.answertext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+
+		 }
+
+		  /* Small Devices, Tablets */
+    @media screen and (max-width : 768px) {
+
+			    .custom-content-reveal a,
+			.custom-content-reveal span {
+				font-size: 40px;
+				padding: 10px 30px;
+				text-align: center; /*content centre and postioning*/
+				display: block;
+			}
+			.questioncontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  24px;
+
+			}
+
+			
+			.questioncontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer2 p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+
+			}
+
+			.questiontext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+			.answercontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer  p {
+				padding-top: 60px;
+				font-size:  24px;
+			}
+
+			.answercontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer2  p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+			}
+
+			.answertext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+		}
+
+		
+		  /* Extra Small Devices, Phones */ 
+    @media screen and (max-width : 480px) {
+
+
 		   .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 14px;
+				font-size: 24px;
 				padding: 10px 30px;
 				text-align: center; /*content centre and postioning*/
 				display: block;
 			}
-		}
-		 
-		@media (min-width: 321px) and (max-width: 480px) {
-		    .custom-content-reveal a,
-			.custom-content-reveal span {
-				font-size: 14px;
-		
-				text-align: center; /*content centre and postioning*/
-				display: block;
-			}
-
-				.custom-header {
-
-				width: 220px;
-				margin-left: 15%;
-				margin-right: 15%;
+			.questioncontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
 
 			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  38px;
+
+			}
+
+			.questiontext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
 		}
 		 
-		@media (max-width: 320px) {
+		 /* Custom, iPhone Retina */ 
+    @media screen and (max-width : 320px) {
+
 
 			.custom-header {
 
@@ -358,11 +664,32 @@ span.hideAns:hover{ background-color:#000;}
 			text-align: center; /*content centre and postioning*/
 			display: block;
 			}
+
+			.questioncontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  12px;
+
+			}
+
+			.questiontext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
 		}
 
 
 
-.questioncontainer {
+/*.questioncontainer {
 	height:400px;
 	background-color: #fff;
 	cursor: default;
@@ -371,7 +698,7 @@ span.hideAns:hover{ background-color:#000;}
 
 .questioncontainer p {
 	padding-top: 60px;
-	font-size:  22px;
+	font-size:  42px;
 
 }
 
@@ -382,7 +709,7 @@ span.hideAns:hover{ background-color:#000;}
 	background-color: #34C1FD;
 	cursor: default;
 }
-
+*/
 .answercontainer {
 	height:400px;
 	background-color: #fff;
@@ -569,9 +896,9 @@ display: block;
 
 .custom-content-reveal span.custom-content-showanswer {
 	position: absolute;
-	top: 80px;
+	top: 75px;
 	
-	width:60%;
+	width:80%;
 
     margin:0 7px 0 25px;
 
@@ -666,7 +993,7 @@ span.hideAns:hover{ background-color:#000; }
 		cursor: pointer;
 }
 .answertext p {
-	height:80px;
+	height:180px;
 	padding-left: 20px;
 	text-align: left;
 	background-color: #34C1FD;
