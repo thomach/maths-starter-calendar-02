@@ -864,7 +864,7 @@ display: block;
 .custom-header h2 {
 	color: #0a2356;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 12px;
 	margin-top: 10px;
 }
 
@@ -908,7 +908,7 @@ display: block;
 .custom-content-reveal span.custom-content-showanswer:after {
 	/*content: 'Show Answer';*/
 
-	font-size: 18px;
+	font-size: 14px;
 	color: #fff;
 }
 
@@ -930,15 +930,13 @@ span.hideAns:hover{ background-color:#000; }
 			.question{
 				margin-top: 40px;
 			    font-family: 'Arial', Helvetica, sans-serif;
-			    font-weight: bold;
-			    font-size: 12px;
-			    color: #333;
+			  			    color: #333;
 			    height: 200px;
 			    cursor: pointer;
 			}
 
 			.questioncontainer {
-				height:220px;
+				height:200px;
 				background-color: #fff;
 				cursor: default;
 
@@ -966,15 +964,28 @@ span.hideAns:hover{ background-color:#000; }
 			}
 
 			.questiontext p {
-				height:150px;
+				font-size:  12px;
+				height:130px;
 				padding-left: 20px;
 				text-align: left;
 				background-color: #34C1FD;
 				cursor: default;
 			}
 
+
+
+			.answer{
+				margin-top: 40px;
+			    font-family: 'Arial', Helvetica, sans-serif;
+			
+			    
+			    color: #333;
+			    height: 200px;
+			    cursor: pointer;
+			}
+
 			.answercontainer {
-				height:220px;
+				height:200px;
 				background-color: #fff;
 				cursor: default;
 			}
@@ -997,8 +1008,9 @@ span.hideAns:hover{ background-color:#000; }
 			}
 
 			.answertext p {
-				height:150px;
+				height:130px;
 				padding-left: 20px;
+				font-size: 12px;
 				text-align: left;
 				background-color: #34C1FD;
 				cursor: default;
