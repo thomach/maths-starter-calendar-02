@@ -245,7 +245,7 @@ span.showAns:hover{ background-color:#000;}
 
 span.hideAns:after{
 	content: attr(data-content) 'Cuddio Ateb';
-}
+} 
 span.hideAns:hover{ background-color:#000;}
 
 
@@ -292,76 +292,331 @@ span.hideAns:hover{ background-color:#000;}
 
 
 
-		@media (min-width : 1824px) {
+		@media (max-width : 1824px) {
+
 		    .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 26px;
+				font-size: 44px;
 				padding: 10px 30px;
 				text-align: center; /*content centre and postioning*/
 				display: block;
 			}
-		}
+			.questioncontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
 
-		@media (min-width : 1224px) {
-			.custom-content-reveal a,
-			.custom-content-reveal span {
-				font-size: 22px;
-				padding: 10px 30px;
-				text-align: center; /*content centre and postioning*/
-				display: block;
+			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  28px;
+
+			}
+
+			
+			.questioncontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer2 p {
+				padding-top: 60px;
+				font-size:  24px;
+				line-height:200%;
+
+			}
+
+			.questiontext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+			.answercontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer  p {
+				padding-top: 60px;
+				font-size:  28px;
+			}
+
+			.answercontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer2  p {
+				padding-top: 60px;
+				font-size:  24px;
+				line-height:200%;
+			}
+
+			.answertext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
 			}
 
 
 		}
-		@media (min-width: 481px) and (max-width: 768px) {
-		   .custom-content-reveal a,
-			.custom-content-reveal span {
-				font-size: 14px;
-				padding: 10px 30px;
-				text-align: center; /*content centre and postioning*/
-				display: block;
-			}
-		}
-		 
-		@media (min-width: 321px) and (max-width: 480px) {
+
+		    /* Large Devices, Wide Screens */
+    @media screen and (max-width : 1200px) {
+
 		    .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 14px;
+				font-size: 40px;
+				padding: 10px 30px;
+				text-align: center; /*content centre and postioning*/
+				display: block;
+			}
+			.questioncontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  24px;
+
+			}
+
+			
+			.questioncontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer2 p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+
+			}
+
+			.questiontext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+			.answercontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer  p {
+				padding-top: 60px;
+				font-size:  24px;
+			}
+
+			.answercontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer2  p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+			}
+
+			.answertext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+
+
+		}
+
+		  /* Medium Devices, Desktops */
+    @media screen and (max-width : 992px) {
+
+		    .custom-content-reveal a,
+			.custom-content-reveal span {
+				font-size: 40px;
+				padding: 10px 30px;
+				text-align: center; /*content centre and postioning*/
+				display: block;
+			}
+			.questioncontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  24px;
+
+			}
+
+			
+			.questioncontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer2 p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+
+			}
+
+			.questiontext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+			.answercontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer  p {
+				padding-top: 60px;
+				font-size:  24px;
+			}
+
+			.answercontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer2  p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+			}
+
+			.answertext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+
+		 }
+
+		  /* Small Devices, Tablets */
+    @media screen and (max-width : 768px) {
+
+			    .custom-content-reveal a,
+			.custom-content-reveal span {
+				font-size: 40px;
+				padding: 10px 30px;
+				text-align: center; /*content centre and postioning*/
+				display: block;
+			}
+			.questioncontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  24px;
+
+			}
+
+			
+			.questioncontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer2 p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+
+			}
+
+			.questiontext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+			.answercontainer {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer  p {
+				padding-top: 60px;
+				font-size:  24px;
+			}
+
+			.answercontainer2 {
+				height:400px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer2  p {
+				padding-top: 60px;
+				font-size:  22px;
+				line-height:200%;
+			}
+
+			.answertext p {
+				height:150px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+		}
+
 		
-				text-align: center; /*content centre and postioning*/
-				display: block;
-			}
-
-				.custom-header {
-
-				width: 220px;
-				margin-left: 15%;
-				margin-right: 15%;
-
-			}
-		}
-		 
-		@media (max-width: 320px) {
-
-			.custom-header {
-
-				width: 220px;
-				margin-left: 10%;
-				margin-right: 10%;
-
-			}
-		 .custom-content-reveal a,
-			.custom-content-reveal span {
-			font-size: 12px;
-			padding: 10px 30px;
-			text-align: center; /*content centre and postioning*/
-			display: block;
-			}
-		}
 
 
 
-.questioncontainer {
+
+/*.questioncontainer {
 	height:400px;
 	background-color: #fff;
 	cursor: default;
@@ -370,7 +625,7 @@ span.hideAns:hover{ background-color:#000;}
 
 .questioncontainer p {
 	padding-top: 60px;
-	font-size:  22px;
+	font-size:  42px;
 
 }
 
@@ -399,7 +654,7 @@ span.hideAns:hover{ background-color:#000;}
 	text-align: left;
 	background-color: #34C1FD;
 	cursor: default;
-}
+}*/
 .mshighlight {
 	font-weight: bold;
 	color: #E05114;
@@ -563,22 +818,75 @@ display: block;
 
 
 
+
+
+.fc-calendar .fc-row > div.fc-today.fc-content:after {
+	color: transparent; 
+}
+
+.fc-calendar .fc-row > div.fc-content:hover:after{
+	color: transparent;
+}
+
+.fc-calendar .fc-row > div.fc-today.fc-content:hover:after{
+	color: transparent;
+}
+
+
+
+
+
+
+
 /*show answer button for mobile devices*/
+
+.custom-header {
+
+	width: 160px;
+	margin-left: 15%;
+	margin-right: 35%;
+	background: #fff;
+	padding: 6px 0px 0px 0px;
+	height: 60px;
+	position: relative;
+	border-top: 0px solid #fff; /*line border above title month an year with arrows either dise*/
+	border-bottom: 0px dotted #0a2356;  /*line border below  title month an year with arrows either dise*/
+}
+
+
+.custom-header h2,
+.custom-header h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.custom-header h2 {
+	color: #0a2356;
+	font-weight: 700;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.custom-header h3 {
+	font-size: 10px;
+	font-weight: 700;
+	color: #34C1FD;
+}
+
 
 
 .custom-content-reveal span.custom-content-showanswer {
 	position: absolute;
-	top: 80px;
+	top: 70px;
 	
-	width:60%;
+	width:70%;
 
-    margin:0 7px 0 25px;
+    margin:0px 7px 0px 25px;
 
    font-size: 14px;
 	font-weight: 800;
 		display: block;
-
-		margin: 10px 0;
+		margin:0px 5px 0px 20px;
 		padding: 10px 20px;
 		background: #51C1F1;
 		-webkit-border-radius: 2px;
@@ -596,86 +904,121 @@ display: block;
 
 }
 
+.custom-content-reveal span.custom-content-showanswer:after {
+	/*content: 'Show Answer';*/
 
-.fc-calendar .fc-row > div.fc-today.fc-content:after {
-	color: transparent; 
+	font-size: 14px;
+	color: #fff;
 }
 
-.fc-calendar .fc-row > div.fc-content:hover:after{
-	color: transparent;
-}
-
-.fc-calendar .fc-row > div.fc-today.fc-content:hover:after{
-	color: transparent;
-}
 
 span.showAns:after{
-	content: attr(data-content) 'Show Answer';
+	content: attr(data-content) 'Dangos Ateb';
 }
 
 span.showAns:hover{ background-color:#000;}
 
 span.hideAns:after{
-	content: attr(data-content) 'Hide Answer';
-}
-
-span.hideAns:hover{ background-color:#000; }
-
-.question{
-	margin-top: 40px;
-    font-family: 'Arial', Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    color: #333;
-    height: 700px;
-    	cursor: pointer;
-}
-
-.questioncontainer {
-
-	height:220px;
-	background-color: #fff;
-	cursor: pointer;
-
-}
+	content: attr(data-content) 'Cuddio Ateb';
+} 
+span.hideAns:hover{ background-color:#000;}
 
 
-.questiontext p {
-	height:120px;
-	font-size: 12px;
-	padding-left: 20px;
-	text-align: left;
-	background-color: #34C1FD;
-		cursor: pointer;
-}
 
-.answer{
-	margin-top: 40px;
-    font-family: 'Arial', Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    color: #333;
-    height: 700px;
-    	cursor: pointer;
-}
+			.question{
+				margin-top: 40px;
+			    font-family: 'Arial', Helvetica, sans-serif;
+			  			    color: #333;
+			    height: 200px;
+			    cursor: pointer;
+			}
 
-.answercontainer {
-	height:220px;
-	background-color: #fff;
-		cursor: pointer;
-}
-.answertext p {
-	height:80px;
-	padding-left: 20px;
-	text-align: left;
-	background-color: #34C1FD;
-		cursor: pointer;
-}
+			.questioncontainer {
+				height:200px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer p {
+				padding-top: 60px;
+				font-size:  12px;
+
+			}
+
+			
+			.questioncontainer2 {
+				height:220px;
+				background-color: #fff;
+				cursor: default;
+
+			}
+
+			.questioncontainer2 p {
+				padding-top: 60px;
+				font-size:  12px;
+				line-height:200%;
+
+			}
+
+			.questiontext p {
+				font-size:  12px;
+				height:130px;
+				padding-left: 20px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+
+
+			.answer{
+				margin-top: 40px;
+			    font-family: 'Arial', Helvetica, sans-serif;
+			
+			    
+			    color: #333;
+			    height: 200px;
+			    cursor: pointer;
+			}
+
+			.answercontainer {
+				height:200px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer  p {
+				padding-top: 60px;
+				font-size:  12px;
+			}
+
+			.answercontainer2 {
+				height:220px;
+				background-color: #fff;
+				cursor: default;
+			}
+
+			.answercontainer2  p {
+				padding-top: 60px;
+				font-size:  12px;
+				line-height:100%;
+			}
+
+			.answertext p {
+				height:130px;
+				padding-left: 20px;
+				font-size: 12px;
+				text-align: left;
+				background-color: #34C1FD;
+				cursor: default;
+			}
+
+
 
 img { max-width:100%; height:auto; max-height:100%; border: 0px; }
 
-@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }
-@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+
 
 /*BELOW - The important part of making the calendar grid fluid is the styling 
 of the row and the div (or the “cell”):*/
@@ -727,4 +1070,3 @@ styling of the row and the div (or the “cell”):
 
 
 	
-
