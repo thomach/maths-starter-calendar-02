@@ -297,7 +297,7 @@ span.hideAns:hover{ background-color:#000;}
 
 		    .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 44px;
+				font-size: 30px;
 				padding: 10px 30px;
 				text-align: center; /*content centre and postioning*/
 				display: block;
@@ -377,7 +377,7 @@ span.hideAns:hover{ background-color:#000;}
 
 		    .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 40px;
+				font-size: 30px;
 				padding: 10px 30px;
 				text-align: center; /*content centre and postioning*/
 				display: block;
@@ -458,7 +458,7 @@ span.hideAns:hover{ background-color:#000;}
 
 		    .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 40px;
+				font-size: 30px;
 				padding: 10px 30px;
 				text-align: center; /*content centre and postioning*/
 				display: block;
@@ -538,7 +538,7 @@ span.hideAns:hover{ background-color:#000;}
 
 			    .custom-content-reveal a,
 			.custom-content-reveal span {
-				font-size: 40px;
+				font-size: 28px;
 				padding: 10px 30px;
 				text-align: center; /*content centre and postioning*/
 				display: block;
@@ -884,7 +884,7 @@ display: block;
 
     margin:0px 7px 0px 25px;
 
-   font-size: 14px;
+   font-size: 10px;
 	font-weight: 800;
 		display: block;
 		margin:0px 5px 0px 20px;
@@ -908,7 +908,7 @@ display: block;
 .custom-content-reveal span.custom-content-showanswer:after {
 	/*content: 'Show Answer';*/
 
-	font-size: 14px;
+	font-size: 10px;
 	color: #fff;
 }
 
