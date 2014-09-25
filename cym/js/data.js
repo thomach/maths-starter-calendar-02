@@ -480,7 +480,10 @@ var codropsEvents = {
 
 
 
-'01-23-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum09_185_07_11c.png"></div><div class="questiontext"><p>Mae hyd car yn b metr ac mae ail gar 2 fetr yn fyrrach na&#39;r car cyntaf. Ysgrifennwch, yn nhermau b, hyd yr ail gar.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum09_185_07_11c.png"></div><div class="answertext"><p>b - 2</p></div></div></a>',
+'01-23-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum09_185_07_11c.png"></div><div class="questiontext"><p>Mae hyd car yn <i>b</i> metr ac mae ail gar 2 fetr yn fyrrach na&#39;r car cyntaf. Ysgrifennwch, yn nhermau <i>b</i>, hyd yr ail gar.</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum09_185_07_11c.png"></div><div class="answertext"><p><math><mrow><mi>b</mi><mo>&#x2212;</mo><mn>2</mn></mrow></math></p></div></div></a>',
+
+
+
 '01-24-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum09_185_07_13.png"></div><div class="questiontext"><p>Darganfyddwch faint ongl x?</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum09_185_07_13.png"></div><div class="answertext"><p>180° - 56° = 124°. 124° ÷ 2 = 62°</p></div></div></a>',
 '01-25-YYYY' : '<a href="#"><div class="question"><div class="questioncontainer"><img src="images/Sum09_185_07_13.png"></div><div class="questiontext"><p>Darganfyddwch faint ongl y?</p></div></div><div class="answer"><div class="answercontainer"><img src="images/Sum09_185_07_13.png"></div><div class="answertext"><p>180° - 43° - 62° = 180° - 105° = 75°</p></div></div></a>',
 
