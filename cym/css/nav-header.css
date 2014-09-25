@@ -1,5 +1,6 @@
 
 
+
 /*--------------------------------
  Functional Styles (Required)
 ---------------------------------*/
@@ -49,9 +50,10 @@
 
 	padding: 0 20px;
 	background: #FFFFFF;
+	
 }
 .logo {
- 	width: 500px;
+ 	width: 600px;
     height: 41px;
     text-indent: 3.0em;
     border: 0;
@@ -61,11 +63,12 @@
 }
 #logo a {
     display: block;
-    width: 500px; /* larger than actual image? */
-    height: 120px;
-    text-decoration: none;
+    width: 600px; /* larger than actual image? */
+    height: auto;
+	
     border: 0;
     color: #fff;
+	font-size:22px;
 }
 
 .nav{ 
@@ -182,13 +185,14 @@ list-style: none;
 
 .lang {font-size: 24px;}
 .lang a{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
-	font-weight: 800;
+	
 		display: block;
 		width: 100px;
 		margin: 10px 0;
 		padding: 10px 20px;
-		background: #51C1F1;
+		background: #5BA2AF;
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
 		text-align: center;

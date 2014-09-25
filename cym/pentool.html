@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PenTool</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+
+<!-- SLIDER -->
+
+<script type="text/javascript">
+
+
+/* ALLOWS USER TO DRAG THE POSTION OF THE PENTOOL*/
+$(function(){
+	$("#pen_tool").draggable();
+	});
+
+
+
+$(document).ready(function(){
+	var h = $(window).height();
+	var w = $(document).width();
+	
+	$('#container').css("height", h);
+
+
+
+
+var ptPenClick = false;
+$('#ptPen').click(function(){
+
+	console.log(ptPenClick)
+	$("#canvas").toggle();
+		if(ptPenClick){
+			$('#ptPen img').css('background','none');
+			;
+			ptPenClick = false;
+		}
+	else{
+			$('#ptPen img').css('background','#262626');
+		ptPenClick = true;
+	}
+		
+		
+    });
+	
+
+
+
+});
+
+	
+</script>
+</head>
+
+<body>
+<div id="container">
+  <canvas id="canvas"></canvas>
+  <div id="pen_tool">
+    <ul>
+      <li><a href="#" id="ptPen"><img src="images/pen.png" class="icon glow"/></a></li>
+      <li><a href="#" id="ptClearAll"><img  src="images/trash.png" class="icon glow" /></a></li>
+    	<li>
+    <table id="colour" class="icon">
+      <tr>
+        <td class="glow"><a href="#"id="black" class="colour" style="background-color:#000000"></a></td>
+        <td class="glow"><a href="#" id="red" class="colour"  style="background-color:#FF0011"></a></td>
+      </tr>
+      <tr>
+        <td class="glow"><a href="#"  id="blue" class="colour" style="background-color:#0099FF"></a></td>
+        <td class="glow"><a href="#"  id="green" class="colour" style="background-color:#00FF11"></a></td>
+      </tr>
+      <!-- <tr>
+       		 <td><a href="#" id="newColorId" class="colour" style="background-color:#newColorHEXCODE"></a></td>
+	        </tr>
+       -->
+    </table>
+    </li>
+   </ul>
+  </div>
+  
+  <!----------------- TO ADD MORE COLOURS ------------
+ 		copy one of the existing colours but change the ID and background-color to match the new colour. 
+        
+        To activate the button, see pen.js
+* --> 
+</div>
+<script type="text/javascript" src="js/pen.js"></script>
+</body>
+</html>

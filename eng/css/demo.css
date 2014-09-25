@@ -3,15 +3,19 @@
 
 html { height: 100%; }
 
+
+
+
 *,
 *:after,
 *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 0;
+	
 	margin: 0;
 }
+
+
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
@@ -31,12 +35,15 @@ html { height: 100%; }
 
 
 body {
-    font-family: 'Helvetica', Arial, sans-serif;
+   font-family: 'Open Sans', sans-serif;
     background-color: #fff;
     font-weight: 300;
     font-size:100%;
     color: #000;
     height: 100%;
+	
+	background-image: url('../images/background.jpg');	
+	
 }
 
 
@@ -59,34 +66,47 @@ h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight
 
 
 
-.header {width: 100%; background-color: #0a2356 ; }
+.header {width: 100%; 
+	height:10%;
+	background-color: #0a2356 ; }
 
-.headercon {padding: 0px 30px 50px 30px; width: 100%; max-width: 1100px;margin: 0 auto;}
+.headercon {
+	padding: 0px 30px 50px 30px; 
+	width: 100%; 
+	margin: 0 auto;}
 
 
 /*.footer {position:absolute; bottom:0; width: 100%; padding: 0px; }*/
 
-#footer {position: relative;
-	margin-top: -150px; /* negative value of footer height */
-	height: 150px;  background-color: #0a2356 ;
-	clear:both;} 
+#footer {
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height: 10%;  
+	background: #374656; /* Old browsers */
+background: -moz-linear-gradient(top, #374656 0%, #242e3b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#374656), color-stop(100%,#242e3b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #374656 0%,#242e3b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #374656 0%,#242e3b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #374656 0%,#242e3b 100%); /* IE10+ */
+background: linear-gradient(to bottom, #374656 0%,#242e3b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#374656', endColorstr='#242e3b',GradientType=0 ); /* IE6-9 */
+	clear:both;
+	} 
 
 
 .footercon {padding: 10px 30px 30px 30px; width: 100%; max-width: 1100px;margin: 0 auto;}
+
+
 
 .container > 
 .main {
 	
 	padding: 0 30px 50px 30px;
-	width: 100%;	
-	max-width: 1100px;
-	/*min-width: 30%;*/
+		height:80%;
 	margin: 0 auto;
-	overflow:auto;
-
-	padding-bottom: 150px;}  /* must be same height as the footer */
-
-
+	
 
 }
 .container > footer{
@@ -101,17 +121,25 @@ h5{ font-family: 'Helvetica', Arial, sans-serif;  font-size: 10px;   font-weight
 
 	padding: 10px;
 	padding-bottom: 5px;
-	background: #0a2356 100%;
+	background: #374656; /* Old browsers */
+background: -moz-linear-gradient(top, #374656 0%, #242e3b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#374656), color-stop(100%,#242e3b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #374656 0%,#242e3b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #374656 0%,#242e3b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #374656 0%,#242e3b 100%); /* IE10+ */
+background: linear-gradient(to bottom, #374656 0%,#242e3b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#374656', endColorstr='#242e3b',GradientType=0 ); /* IE6-9 */
 }
 
 .container > header h1 {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 22px;
 	line-height: 38px;
 	margin: 0;
 	
 	color: #fff;
 	float: left;  
-	text-shadow: 1px 1px 0px #0a2356;
+	
     font-weight: bold;
 
 }

@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*BIG IMAGE CONTAINER*/
+
+#closeBtn{
+position:relative;
+
+float:right;
+margin:5px;
+}
+
+#bigImageContainer
+{
+position:absolute;
+width:100%;
+height:100%;
+top:0;
+left:0;	
+background-color:rgba(0,0,0,0.3);
+z-index:999;
+padding:20px;
+display: none;
+
+}
+
+
+
+#bigImage{
+	pointer-events:none;
+background-color:#FFF;
+
+height:100%;
+width:100%;
+text-align:center;
+}
+
+#bigImage img{
+	pointer-events:none;
+	top: 50%;
+	margin-top:-25%;
+	position:relative;
+}
+
+/* PEN TOOL BLOCK STYLE AND POSITIONING*/
+#pen_tool {
+
+border:3px solid #262626;
+border-top:25px solid #262626;
+position:absolute;
+background: rgba(135,170,210,.5);   /*BACKGROUND COLOUR (R,G,B,ALPHA)*/
+border-radius:15px;
+width:80px;
+
+/*PLACE THE TOOL BLOCK ON THE LEFT OR RIGHT OF THE SCREEN */
+
+
+right:0px;
+/*left:0px;*/
+
+top:150px;
+
+padding-bottom:5px;
+z-index:1001;
+}
+
+
+/* LAYOUT OF THE COLOUR TABLE */
+.colour {
+display:block;
+height:25px;
+width:25px;
+border: solid #FFF 1px;
+
+}
+
+#colour{margin:0 auto}
+
+#pen_tool ul {
+margin:5px;
+padding:0px;
+
+}
+
+
+#pen_tool ul li {
+list-style:none;
+}
+
+#colour.icon {padding:3px}
+
+.glow:hover{	box-shadow:0px 0px 15px #000;}
+
+
+/*****
+	CANVAS COVERS THE WHOLE SCREEN AND IS ON TOP OF CONTENT 
+	JQUERY SHOWS THE CANVAS ON BUTTON PUSH, TO ACTIVATE THE PENTOOL ON LOAD 
+		REMOVE; display:none;
+	AND LINE 47 OF INDEX.HTML; 
+		$("#canvas").toggle();
+*****/
+
+#canvas {
+position:absolute;
+z-index:1000;
+display:none;
+overflow:hidden;
+height: 100%;
+width:100%;
+top:0;
+left:0;
+}
+
+#pen_tool{display:none}
+
+

@@ -23,7 +23,7 @@
 the width of the header Day of the Week */
 
 .fc-head {
-width: 120%;
+width: 100%;
 	}
 
 /*fc-head.....above */
@@ -37,13 +37,13 @@ width: 120%;
 
 .fc-calendar .fc-body {
 	position: relative;
-	width: 100%;
+	width: 95%%;
 	height: 100%;
 	height: -moz-calc(100% - 30px);
 	height: -webkit-calc(100% - 30px);
 	height: -ms-calc(100% - 30px);
 	height: calc(100% - 30px);
-	border: 1px solid #fff; /*this is the grey box round calendar */
+	
 }
 
 /* I have altered width to 120% to fit browser across width of screen *still gap in ie9 - any 
@@ -81,10 +81,10 @@ of the row and the div (or the “cell”):*/
 	float: left;
 	height: 80%;
 	width:  12.28%; /* 100% / 7 ...tinkered this to fit in safari last from 16.28% */ 
-	width: -moz-calc(98%/7);
-	width: -webkit-calc(98%/7);
-	width: -ms-calc(82%/7);
-	width: calc(82%/7);
+	width: -moz-calc(100%/7);
+	width: -webkit-calc(100%/7);
+	width: -ms-calc(100%/7);
+	width: calc(100%/7);
 	position: relative;
 }
 
