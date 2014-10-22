@@ -549,6 +549,26 @@ transition:	 all 0.2s ease-out;
 
 }
 
+@media screen and (min-width: 1024px) and (max-height:768px) {
+                                                .custom-inner {
+                                                height:500px;
+                                                }
+                                
+                                                .question{
+                                                height:400px;    
+                                                }
+                                                
+                                                .answer{
+                                                height:300px;    
+                                                }
+                                                
+                                                /*font size****************************************/
+                                                
+                                                .questiontext p, .answertext p{
+                                                font-size:22px;  
+                                                }
+
+}
 
 
 
